@@ -6,46 +6,16 @@
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.7;
-  padding: 30px;
-  color: #777; }
+  font-size: 16px;
+  color: #777;
+  padding: 30px; }
 
 .header {
   height: 100vh;
+  background-image: linear-gradient(to right bottom, rgba(255, 215, 0, 0.8), rgba(190, 163, 9, 0.8), rgba(127, 109, 5, 0.8)), url(../assets/boxing.png);
   background-size: cover;
   background-position: top;
-  background-image: linear-gradient(to right bottom, rgba(255, 215, 0, 0.8), rgba(117, 99, 0, 0.8)), url(../assets/background.png);
-  clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
-  position: relative; }
-  .header .header__logo-box {
-    position: absolute;
-    top: 15px;
-    left: 15px; }
-  .header .header__logo {
-    width: 80px;
-    border-radius: 10px;
-    background-repeat: no-repeat;
-    background-attachment: fixed; }
-  .header .header__main-box {
-    display: flex;
-    flex-direction: row; }
-  .header .header__profile {
-    width: 50vw;
-    height: 100vh;
-    background-size: cover;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px; }
-  .header .header-primary {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 30px; }
-    .header .header-primary .header-secondary {
-      font-weight: 900;
-      color: #fff; }
-    .header .header-primary .header-sub {
-      font-size: 20px;
-      color: #fff;
-      text-align: justify; }
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
