@@ -77,6 +77,10 @@ body {
   font-size: 25px;
   font-weight: 400;
   letter-spacing: 10px;
+
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
 };
 
 .heading-primary-sub {
@@ -85,4 +89,20 @@ body {
   font-weight: 400;
   letter-spacing: 5px;
 };
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translate(-100%)
+  };
+
+  80% {
+    transform: translateX(10px);
+  };
+
+  100% {
+   opacity: 1;
+   transform: translate(0);
+  }
+}
 
