@@ -29,7 +29,7 @@ body {
 .logo {
   height: 50px;
   border-radius: 10px;
-  border: 2px solid white; }
+  border: 2px solid #fff; }
 
 .text-box {
   text-align: center;
@@ -39,7 +39,7 @@ body {
   transform: translate(-50%, -50%); }
 
 .heading-primary {
-  color: white;
+  color: #fff;
   text-transform: uppercase;
   margin-bottom: 20px;
   backface-visibility: hidden; }
@@ -100,7 +100,7 @@ body {
   position: relative; }
 
 .btn-white {
-  background-color: white;
+  background-color: #fff;
   color: #777;
   font-size: 25px; }
 
