@@ -9,6 +9,7 @@
   "author": "Yakubu",
   "license": "ISC",
   "dependencies": {
+    "jquery": "^3.6.0",
     "live-server": "^1.2.2",
     "node-sass": "^7.0.1"
   }
