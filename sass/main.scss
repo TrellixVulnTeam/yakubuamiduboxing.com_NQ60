@@ -197,7 +197,7 @@ body {
 };
 
 .gallery {
-  height: 50%;
+  width: 100%;
   padding-top: 70px;
   padding-bottom: 70px;
   text-align: center;
@@ -206,10 +206,11 @@ body {
 
 .gallery img {
   border-radius: 20px;
-   transition: 1s;
+  transition: 1s;
    margin: 10px;
    border: 1px solid rgba(0, 0, 0, 0.413);
-   width: 27vw;
+   width: 300px;
+   height: 100%;
    object-fit: cover;
    height: 35vh;
 };
