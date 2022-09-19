@@ -176,7 +176,7 @@ body {
     transition: all .2s;
     outline-offset: .5rem; }
     .composition__photo--p1 {
-      top: 2rem;
+      top: -1rem;
       left: 6rem; }
     .composition__photo--p2 {
       right: .5rem;
@@ -270,5 +270,5 @@ body {
 
 .section-about {
   background-color: #f1f1f1;
-  padding: 10rem 0;
+  padding: 15rem 0;
   margin-top: -20vh; }
