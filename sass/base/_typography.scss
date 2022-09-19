@@ -1,0 +1,37 @@
+.heading__primary{
+  color: $color-white;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+
+  backface-visibility: hidden;
+
+  &--main{
+    display: block;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 10px;
+  
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+  }
+
+  &--sub {
+    display: block;
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 5px;
+  
+    animation: moveInRight 1s ease-in;
+  }
+};
+
+.heading-secondary {
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right bottom, rgba($color-light-gold, 0.8), rgba($color-medium-gold, 0.8), rgba($color-dark-gold, 0.8));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: .5rem 1rem 2rem rgba($color-black, .5);
+}

@@ -1,0 +1,30 @@
+.header {
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, rgba($color-light-gold, 0.8), rgba($color-medium-gold, 0.8), rgba($color-dark-gold, 0.8)), url(../assets/boxing.png);
+  background-size: cover;
+  background-position: top;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  position: relative;
+
+  &__logo-box {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+
+  &__logo {
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid $color-white;
+  }
+};
+
+.text-box {
+  text-align: center;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+};
