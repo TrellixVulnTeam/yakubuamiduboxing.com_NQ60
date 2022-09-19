@@ -1,15 +1,28 @@
-.gallery-h2 {
-  color: #fff;
-  font-weight: 700;
-  margin-bottom: 50px;
-}
-
 .gallery {
   width: 100%;
   padding-top: 70px;
   padding-bottom: 70px;
   text-align: center;
   background-image: linear-gradient(to right bottom, rgba($color-light-gold, 0.8), rgba($color-medium-gold, 0.8), rgba($color-dark-gold, 0.8));
+
+
+  &__secondary {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 50px;
+    background-image: linear-gradient(to right bottom, rgba($color-primary, 0.8), rgba($color-primary-dark, 0.8));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: .5rem 1rem 2rem rgba($color-black, .5);
+    letter-spacing: .1rem;
+    transition: all .2s;
+
+    &:hover {
+      transform: skewY(2deg) skewX(16deg) scale(1.1);
+      text-shadow: .5rem 1rem 2rem rgba($color-black, .5);
+     }
+  }
 };
 
 .gallery img {
