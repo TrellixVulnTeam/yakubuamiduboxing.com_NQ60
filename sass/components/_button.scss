@@ -51,4 +51,28 @@
     animation: moveBottom .5s ease-in .75s;
     animation-fill-mode: backwards;
   };
+  };
+
+  .btn-text {
+    &:link,
+    &:visited {
+      font-size: .9rem;
+      color: $color-light-gold;
+      display: inline-block;
+      text-decoration: none;
+      border-bottom: 1px solid $color-light-gold;
+      padding: .3rem;
+    }
+
+    &:hover {
+     background-color: $color-light-gold;
+     color: $color-white;
+     box-shadow: 0 1rem 2rem rgba($color-black,.1);
+     transform: translateX(-2px);
+    };
+
+    &:active {
+     box-shadow: 0 .5rem 1rem rgba($color-black,.1);
+     transform: translateY(0);
+    }
   }

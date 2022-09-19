@@ -147,6 +147,24 @@ body {
   animation: moveBottom .5s ease-in .75s;
   animation-fill-mode: backwards; }
 
+.btn-text:link, .btn-text:visited {
+  font-size: .9rem;
+  color: #FFD700;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid #FFD700;
+  padding: .3rem; }
+
+.btn-text:hover {
+  background-color: #FFD700;
+  color: #fff;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  transform: translateX(-2px); }
+
+.btn-text:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  transform: translateY(0); }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
