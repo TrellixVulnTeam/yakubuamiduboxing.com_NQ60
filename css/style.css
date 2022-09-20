@@ -316,6 +316,10 @@ body {
     border-top: 1px solid #f1f1f1;
     display: inline-block;
     padding: 1rem; }
+    @media only screen and (max-width: 56.25em) {
+      .footer__navigation {
+        width: 100%;
+        text-align: center; } }
   .footer li {
     padding: .5rem;
     border-right: 2px solid #fff; }
@@ -338,6 +342,10 @@ body {
     border-top: 1px solid #f1f1f1;
     float: right;
     padding-top: 1rem; }
+    @media only screen and (max-width: 56.25em) {
+      .footer__copyright {
+        width: 100%;
+        float: none; } }
 
 .gallery {
   width: 100%;
