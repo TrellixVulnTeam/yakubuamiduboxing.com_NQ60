@@ -208,7 +208,7 @@ body {
       outline: 0.5rem solid #7ED56F;
       transform: scale(1.05) translateY(-0.5rem);
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
-      z-index: 20; }
+      z-index: 9999; }
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.95); }
 
@@ -309,6 +309,8 @@ body {
     margin-bottom: 4rem; }
   .footer__logo {
     width: 15rem;
+    border-radius: 10px;
+    border: 2px solid #fff;
     height: auto; }
   .footer__navigation {
     border-top: 1px solid #f1f1f1;

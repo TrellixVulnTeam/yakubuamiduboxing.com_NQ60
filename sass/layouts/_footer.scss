@@ -11,11 +11,9 @@
 
   &__logo {
     width: 15rem;
+    border-radius: 10px;
+    border: 2px solid $color-white;
     height: auto;
-  };
-
-  &__logo {
-
   };
 
   &__navigation {
