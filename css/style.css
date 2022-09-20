@@ -301,28 +301,41 @@ body {
 
 .footer {
   background-color: #333;
+  color: #f1f1f1;
   padding: 4rem 0;
-  font-size: 1.4rem; }
+  font-size: 1rem; }
   .footer__logo-box {
     text-align: center;
     margin-bottom: 4rem; }
   .footer__logo {
     width: 15rem;
     height: auto; }
+  .footer__navigation {
+    border-top: 1px solid #f1f1f1;
+    display: inline-block;
+    padding: 1rem; }
+  .footer li {
+    padding: .5rem;
+    border-right: 2px solid #fff; }
   .footer__list {
     list-style: none; }
   .footer__item {
     display: inline-block; }
-    .footer__item:not(:last-child) {
-      margin-right: 1.5rem; }
   .footer__link:link, .footer__link:visited {
     color: #f1f1f1;
+    background-color: #333;
     text-decoration: none;
-    text-transform: uppercase;
-    display: inline-block; }
+    text-transform: capitalize;
+    display: inline-block;
+    transition: all .2s; }
   .footer__link:hover, .footer__link:active {
     color: #FFD700;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4); }
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+    transform: rotate(5deg) scale(1); }
+  .footer__copyright {
+    border-top: 1px solid #f1f1f1;
+    float: right;
+    padding-top: 1rem; }
 
 .gallery {
   width: 100%;
