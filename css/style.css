@@ -190,7 +190,7 @@ body {
           transform: scale(1.2); } }
     .composition_photo--p2 {
       right: 0;
-      top: 2rem; }
+      top: .5rem; }
       @media only screen and (max-width: 56.25em) {
         .composition_photo--p2 {
           top: -1rem;
@@ -198,7 +198,7 @@ body {
           z-index: 100; } }
     .composition_photo--p3 {
       left: 20%;
-      top: 10rem; }
+      top: 3rem; }
       @media only screen and (max-width: 56.25em) {
         .composition_photo--p3 {
           top: 1rem;
