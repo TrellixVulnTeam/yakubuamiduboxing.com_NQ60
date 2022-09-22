@@ -303,8 +303,7 @@ body {
 .footer {
   background-color: #333;
   color: #f1f1f1;
-  margin-top: -15vh;
-  padding-top: 8rem;
+  padding-top: 4rem;
   padding-bottom: 4rem;
   font-size: 1rem; }
   .footer__logo-box {
@@ -352,12 +351,10 @@ body {
 
 .gallery {
   width: 100%;
-  padding-top: 90px;
-  padding-bottom: 15rem;
-  margin-top: -30vh;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   text-align: center;
-  background-image: linear-gradient(to right bottom, rgba(255, 215, 0, 0.8), rgba(190, 163, 9, 0.8), rgba(127, 109, 5, 0.8));
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
+  background-image: linear-gradient(to right bottom, rgba(255, 215, 0, 0.8), rgba(190, 163, 9, 0.8), rgba(127, 109, 5, 0.8)); }
   .gallery__secondary {
     color: #fff;
     font-weight: 700;
@@ -412,11 +409,10 @@ body {
   transform: translate(-50%, -50%); }
 
 .learn__more--section {
-  padding-top: 15rem;
+  padding-top: 5rem;
   padding-bottom: 5rem;
   padding-left: 10rem;
   padding-right: 10rem;
-  margin-top: -30vh;
   background-color: #f1f1f1; }
 
 @media screen and (max-width: 600px) {
@@ -536,7 +532,6 @@ body {
   height: 100vh;
   width: 100%;
   background-image: linear-gradient(to right bottom, rgba(255, 215, 0, 0.8), rgba(190, 163, 9, 0.8), rgba(127, 109, 5, 0.8));
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
@@ -607,6 +602,5 @@ textarea {
 
 .section-about {
   background-color: #f1f1f1;
-  padding-top: 15rem;
-  padding-bottom: 25rem;
+  padding: 15rem 0;
   margin-top: -20vh; }
