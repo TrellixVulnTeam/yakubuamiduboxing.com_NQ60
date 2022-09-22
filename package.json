@@ -9,8 +9,11 @@
   "author": "Yakubu",
   "license": "ISC",
   "dependencies": {
+    "composer": "^4.1.0",
     "jquery": "^3.6.0",
     "live-server": "^1.2.2",
-    "node-sass": "^7.0.1"
+    "node-sass": "^7.0.1",
+    "phpmailer": "phpmailer/phpmailer",
+    "require": "^2.4.20"
   }
 }
