@@ -302,7 +302,9 @@ body {
 .footer {
   background-color: #333;
   color: #f1f1f1;
-  padding: 4rem 0;
+  margin-top: -15vh;
+  padding-top: 8rem;
+  padding-bottom: 4rem;
   font-size: 1rem; }
   .footer__logo-box {
     text-align: center;
@@ -349,10 +351,12 @@ body {
 
 .gallery {
   width: 100%;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 90px;
+  padding-bottom: 15rem;
+  margin-top: -30vh;
   text-align: center;
-  background-image: linear-gradient(to right bottom, rgba(255, 215, 0, 0.8), rgba(190, 163, 9, 0.8), rgba(127, 109, 5, 0.8)); }
+  background-image: linear-gradient(to right bottom, rgba(255, 215, 0, 0.8), rgba(190, 163, 9, 0.8), rgba(127, 109, 5, 0.8));
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
   .gallery__secondary {
     color: #fff;
     font-weight: 700;
@@ -383,7 +387,7 @@ body {
 
 .header {
   height: 100vh;
-  background-image: url(../assets/boxing.png);
+  background-image: linear-gradient(to right bottom, rgba(255, 215, 0, 0.6), rgba(190, 163, 9, 0.6), rgba(127, 109, 5, 0.6)), url(../assets/boxing.png);
   background-size: cover;
   background-position: top;
   border-top-left-radius: 20px;
@@ -407,9 +411,12 @@ body {
   transform: translate(-50%, -50%); }
 
 .learn__more--section {
-  padding-top: 6rem;
+  padding-top: 15rem;
+  padding-bottom: 5rem;
   padding-left: 3rem;
-  padding-right: 3rem; }
+  padding-right: 3rem;
+  margin-top: -30vh;
+  background-color: #f1f1f1; }
 
 @media screen and (max-width: 600px) {
   .learn__more--section {
@@ -527,7 +534,8 @@ body {
   font-family: poppins;
   height: 100vh;
   width: 100%;
-  background-image: url("https://c4.wallpaperflare.com/wallpaper/531/859/597/mountains-red-sun-dark-sunset-sun-hd-wallpaper-preview.jpg");
+  background-image: linear-gradient(to right bottom, rgba(255, 215, 0, 0.8), rgba(190, 163, 9, 0.8), rgba(127, 109, 5, 0.8));
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
