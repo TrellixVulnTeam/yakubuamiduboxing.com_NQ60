@@ -4,6 +4,14 @@
   padding-right: 3rem;
 };
 
+@media screen and (max-width: 600px){
+  .learn__more--section {
+    padding: 3rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 #learn__more--pro {
   text-align: center;
   font-weight: 700;
@@ -44,6 +52,12 @@
   margin-right: 3rem;
  };
 
+ @media screen and (max-width: 600px){
+  .u-margin-right {
+    margin-right: 0;
+  }
+}
+
  .learn__p--two {
   text-align: justify;
   font-size: 1.1rem;
@@ -56,17 +70,31 @@
   font-size: 1.1rem;
   line-height: 1.7;
   letter-spacing: .1rem;
+  margin-bottom: 3rem;
  };
 
  .u-margin-left {
   margin-left: 3rem;
  }
 
+ @media screen and (max-width: 600px){
+  .u-margin-left {
+    margin-left: 0;
+  }
+}
+
  .learn__img {
   width: 300px;
   object-fit: cover;
   border-radius: 1rem;
  };
+
+ @media screen and (max-width: 600px){
+  .learn__img {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
 
  .learn__img:hover {
   box-shadow: 6px 14px 26px 3px rgba(0,0,0,0.55);
@@ -82,6 +110,16 @@
   margin-top: 3rem;
 };
 
+@media screen and (max-width: 600px){
+  .learn__two--box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+  }
+}
+
 .learn__three--box{
   display: flex;
   flex-direction: row;
@@ -89,5 +127,16 @@
   margin-bottom: 5rem;
   margin-top: 3rem;
 };
+
+@media screen and (max-width: 600px){
+  .learn__three--box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+  }
+}
+
 
 
