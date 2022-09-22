@@ -74,6 +74,7 @@ body {
   display: inline-block;
   background-image: linear-gradient(to right bottom, rgba(255, 215, 0, 0.8), rgba(190, 163, 9, 0.8), rgba(127, 109, 5, 0.8));
   background-clip: text;
+  margin-bottom: 3rem;
   -webkit-background-clip: text;
   color: transparent;
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.5);
@@ -606,5 +607,6 @@ textarea {
 
 .section-about {
   background-color: #f1f1f1;
-  padding: 15rem 0;
+  padding-top: 15rem;
+  padding-bottom: 25rem;
   margin-top: -20vh; }
