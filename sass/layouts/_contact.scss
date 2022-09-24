@@ -6,7 +6,7 @@
   width: 100%;
   height: 100%;
   background-image: linear-gradient(to right bottom, rgba($color-light-gold, 0.8), rgba($color-medium-gold, 0.8), rgba($color-dark-gold, 0.8)); 
-  padding: 3rem 0;
+  // padding: 3rem 0;
 };
 
 .form-area {
@@ -67,7 +67,7 @@ textarea {
   margin-bottom: 20px;
 };
 
-.wrapper button {
+.wrapper a {
   display: block;
   width: 100%;
   text-align: center;
