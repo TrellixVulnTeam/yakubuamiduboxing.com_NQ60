@@ -626,6 +626,5 @@ textarea {
   justify-content: center;
   background-image: linear-gradient(to right bottom, #FFD700, #7f6d05, 0.8); }
   .thank__you--h1 {
-    font-size: 10rem;
     font-weight: bold;
-    color: #000; }
+    color: #777; }
