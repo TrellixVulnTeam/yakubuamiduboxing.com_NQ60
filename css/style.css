@@ -620,12 +620,12 @@ textarea {
   padding: 15rem 0;
   margin-top: -20vh; }
 
-.thank__you {
+.thank {
   display: flex;
   align-items: center;
-  justify-content: center; }
-  .thank__you__you--h1 {
+  justify-content: center;
+  background-image: linear-gradient(to right bottom, #FFD700, #7f6d05, 0.8); }
+  .thank__you--h1 {
     font-size: 10rem;
     font-weight: bold;
-    color: #000;
-    background-image: linear-gradient(to right bottom, #FFD700, #7f6d05, 0.8); }
+    color: #000; }
