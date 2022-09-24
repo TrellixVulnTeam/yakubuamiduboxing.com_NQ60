@@ -2,15 +2,44 @@
   box-sizing: border-box;
 }
 
-.contact__section {
+.contact-section{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right bottom, rgba($color-light-gold, 0.8), rgba($color-medium-gold, 0.8), rgba($color-dark-gold, 0.8));
+};
+
+.form-area {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+};
+
+.wrapper {
+  width: 400px;
+  height: 500px;
+  padding: 50px 30px;
+  color: $color-white;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,0.2);
+  position: relative;
+};
+
+.wrapper p {
   margin: 0;
   padding: 0;
-  font-family: poppins;
-  height: 100vh;
-  width: 100%;
-  background-image: linear-gradient(to right bottom, rgba($color-light-gold, 0.8), rgba($color-medium-gold, 0.8), rgba($color-dark-gold, 0.8));
-  // background-image: url("https://c4.wallpaperflare.com/wallpaper/531/859/597/mountains-red-sun-dark-sunset-sun-hd-wallpaper-preview.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+   font-weight: bold;
 };
+
+.wrapper input {
+  border: none;
+  border-bottom: 1px solid $color-white;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: $color-white;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 20px;
+};
+
+
+

@@ -529,16 +529,39 @@ body {
 * {
   box-sizing: border-box; }
 
-.contact__section {
+.contact-section {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right bottom, rgba(255, 215, 0, 0.8), rgba(190, 163, 9, 0.8), rgba(127, 109, 5, 0.8)); }
+
+.form-area {
+  display: grid;
+  place-items: center;
+  height: 100vh; }
+
+.wrapper {
+  width: 400px;
+  height: 500px;
+  padding: 50px 30px;
+  color: #fff;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  position: relative; }
+
+.wrapper p {
   margin: 0;
   padding: 0;
-  font-family: poppins;
-  height: 100vh;
+  font-weight: bold; }
+
+.wrapper input {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
   width: 100%;
-  background-image: linear-gradient(to right bottom, rgba(255, 215, 0, 0.8), rgba(190, 163, 9, 0.8), rgba(127, 109, 5, 0.8));
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; }
+  margin-bottom: 20px; }
 
 .section-about {
   background-color: #f1f1f1;
