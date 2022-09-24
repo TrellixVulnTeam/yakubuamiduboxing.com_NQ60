@@ -4,12 +4,12 @@
   justify-content: center;
   background-image: linear-gradient(to right bottom, rgba($color-light-gold, 0.8), rgba($color-medium-gold, 0.8), rgba($color-dark-gold, 0.8));
   padding: 3rem 1rem;
-  max-width: 500;
+  max-width: 500px;
   margin: 0 auto;
 
   &__you--h1 {
     font-weight: 700;
     color: $color-grey-dark-2;
-    display: inline-block;
+    display: block;
   }
 }

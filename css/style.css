@@ -626,9 +626,9 @@ textarea {
   justify-content: center;
   background-image: linear-gradient(to right bottom, rgba(255, 215, 0, 0.8), rgba(190, 163, 9, 0.8), rgba(127, 109, 5, 0.8));
   padding: 3rem 1rem;
-  max-width: 500;
+  max-width: 500px;
   margin: 0 auto; }
   .thank__you--h1 {
     font-weight: 700;
     color: #777;
-    display: inline-block; }
+    display: block; }
