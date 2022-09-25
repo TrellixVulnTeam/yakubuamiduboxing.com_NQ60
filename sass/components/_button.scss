@@ -17,6 +17,10 @@
      &::after {
       background-color: $color-white;
      }
+
+     @media only screen and (max-width: 600px){
+       font-size: 15px;
+     }
   };
   
   &:hover {
