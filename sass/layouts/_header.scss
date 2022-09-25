@@ -12,12 +12,21 @@
     position: absolute;
     top: 40px;
     left: 40px;
+
+    @media only screen and (max-width: 600px){
+      top: 30px;
+      left: 30px;
+    }
   }
 
   &__logo {
     height: 50px;
     border-radius: 10px;
     border: 2px solid $color-white;
+
+    @media only screen and (max-width: 600px){
+      height: 35px;
+    }
   }
 };
 

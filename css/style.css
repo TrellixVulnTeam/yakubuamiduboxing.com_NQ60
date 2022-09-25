@@ -491,10 +491,17 @@ body {
     position: absolute;
     top: 40px;
     left: 40px; }
+    @media only screen and (max-width: 600px) {
+      .header__logo-box {
+        top: 30px;
+        left: 30px; } }
   .header__logo {
     height: 50px;
     border-radius: 10px;
     border: 2px solid #fff; }
+    @media only screen and (max-width: 600px) {
+      .header__logo {
+        height: 35px; } }
 
 .text-box {
   text-align: center;
