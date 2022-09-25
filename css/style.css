@@ -371,6 +371,13 @@ body {
   margin: 0 auto;
   display: flex; }
 
+@media only screen and (max-width: 600px) {
+  .social-menu ul {
+    max-width: 300px;
+    padding-left: 0;
+    align-items: center;
+    justify-content: center; } }
+
 .social-menu ul li {
   list-style: none;
   margin: 0 15px; }
@@ -380,6 +387,11 @@ body {
   line-height: 60px;
   transition: .3s;
   color: #000; }
+
+@media only screen and (max-width: 600px) {
+  .social-menu ul li .fab {
+    font-size: 20px;
+    line-height: 52px; } }
 
 .social-menu ul li .fab:hover {
   color: #fff; }
@@ -394,6 +406,11 @@ body {
   text-align: center;
   transition: .6s;
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5); }
+
+@media only screen and (max-width: 600px) {
+  .social-menu ul li a {
+    width: 50px;
+    height: 50px; } }
 
 .social-menu ul li a:hover {
   transform: translate(0, -10%); }
