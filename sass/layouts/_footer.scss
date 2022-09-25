@@ -114,6 +114,13 @@
   box-shadow: 0 5px 4px rgba(0,0,0,.5);
 }
 
+@media only screen and (max-width: 600){
+  .social-menu {
+    width: 40px;
+    height: 40px;
+  }
+}
+
 .social-menu ul li a:hover{
   transform: translate(0, -10%);
 }
