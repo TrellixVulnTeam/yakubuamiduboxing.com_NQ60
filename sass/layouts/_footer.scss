@@ -92,6 +92,12 @@
 .social-menu ul li{
   list-style: none;
   margin: 0 15px;
+};
+
+@media only screen and (max-width: 600px){
+  .social-menu ul li {
+    margin: 0 5px;
+  }
 }
 
 .social-menu ul li .fab{
