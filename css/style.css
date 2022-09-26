@@ -88,10 +88,14 @@ body {
   color: transparent;
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.5);
   letter-spacing: .1rem;
-  transition: all .2s; }
+  transition: all .2s;
+  font-size: 4rem; }
   .heading-secondary:hover {
     transform: skewY(2deg) skewX(16deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.5); }
+  @media only screen and (max-width: 600px) {
+    .heading-secondary {
+      font-size: 3rem; } }
 
 .heading-tertiary {
   font-size: 1.2rem;

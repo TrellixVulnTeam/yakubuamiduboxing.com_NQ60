@@ -57,10 +57,15 @@ body {
   text-shadow: .5rem 1rem 2rem rgba($color-black, .5);
   letter-spacing: .1rem;
   transition: all .2s;
+  font-size: 4rem;
 
   &:hover {
    transform: skewY(2deg) skewX(16deg) scale(1.1);
    text-shadow: .5rem 1rem 2rem rgba($color-black, .5);
+  }
+
+  @media only screen and (max-width: 600px){
+    font-size: 3rem;
   }
 }
 
