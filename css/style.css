@@ -508,18 +508,19 @@ hr {
   padding-left: 10rem;
   padding-right: 10rem;
   background-color: #f1f1f1; }
-
-@media screen and (max-width: 600px) {
-  .learn__more--section {
-    padding: 3rem;
-    padding-left: 0;
-    padding-right: 0; } }
+  @media only screen and (max-width: 37.5em) {
+    .learn__more--section {
+      padding: 4rem;
+      padding-left: 1rem;
+      padding-right: 1rem; } }
 
 #learn__more--pro {
   text-align: center;
   font-weight: 700;
   display: block;
   background-image: linear-gradient(to right bottom, rgba(255, 215, 0, 0.8), rgba(190, 163, 9, 0.8), rgba(127, 109, 5, 0.8));
+  font-size: 4rem;
+  margin-bottom: 4rem;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -529,6 +530,10 @@ hr {
   #learn__more--pro:hover {
     transform: skewY(2deg) skewX(16deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.5); }
+  @media only screen and (max-width: 37.5em) {
+    #learn__more--pro {
+      margin-bottom: 4rem;
+      font-size: 3rem; } }
 
 .learn__more--box {
   max-width: 50rem;
@@ -548,6 +553,10 @@ hr {
   #learn__more--ama:hover {
     transform: skewY(2deg) skewX(16deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.5); }
+  @media only screen and (max-width: 37.5em) {
+    #learn__more--ama {
+      margin-bottom: 4rem;
+      font-size: 3rem; } }
 
 .u-margin-right {
   margin-right: 3rem; }
@@ -558,23 +567,28 @@ hr {
 
 .learn__p--two {
   text-align: justify;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   line-height: 1.7;
   letter-spacing: .1rem; }
+  @media only screen and (max-width: 37.5em) {
+    .learn__p--two {
+      font-size: 1.4rem; } }
 
 .learn__p--three {
   text-align: justify;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   line-height: 1.7;
   letter-spacing: .1rem;
   margin-bottom: 3rem; }
+  @media only screen and (max-width: 37.5em) {
+    .learn__p--three {
+      font-size: 1.4rem; } }
 
 .u-margin-left {
   margin-left: 3rem; }
-
-@media screen and (max-width: 600px) {
-  .u-margin-left {
-    margin-left: 0; } }
+  @media only screen and (max-width: 37.5em) {
+    .u-margin-left {
+      margin-left: 0; } }
 
 .learn__img {
   width: 300px;
