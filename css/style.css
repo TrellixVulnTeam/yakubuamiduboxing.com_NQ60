@@ -127,6 +127,9 @@ body {
 
 .u-margin-bottom-big {
   margin-bottom: 4rem; }
+  @media only screen and (max-width: 600px) {
+    .u-margin-bottom-big {
+      margin-bottom: 2rem; } }
 
 .u-margin-bottom-medium {
   margin-bottom: 2rem; }
@@ -715,6 +718,9 @@ textarea {
   background-color: #f1f1f1;
   padding: 15rem 0;
   margin-top: -20vh; }
+  @media only screen and (max-width: 600px) {
+    .section-about {
+      padding: 12rem 0; } }
 
 .thank {
   display: flex;
