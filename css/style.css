@@ -101,11 +101,18 @@ body {
   font-size: 1.2rem;
   font-weight: 700;
   text-transform: uppercase; }
+  @media only screen and (max-width: 37.5em) {
+    .heading-tertiary {
+      font-size: 1.4rem; } }
 
 .paragraph {
   font-size: 1.1rem; }
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
+  @media only screen and (max-width: 37.5em) {
+    .paragraph {
+      font-size: 1.3rem;
+      text-align: justify; } }
 
 .contact__header {
   font-weight: 700;
@@ -144,7 +151,7 @@ body {
   border-radius: 15px;
   transition: all .2s;
   position: relative; }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 37.5em) {
     .btn:link, .btn:visited {
       padding: 10px 15px; } }
 
@@ -154,7 +161,7 @@ body {
   font-size: 25px; }
   .btn--white::after {
     background-color: #fff; }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 37.5em) {
     .btn--white {
       font-size: 25px; } }
 
@@ -192,6 +199,9 @@ body {
   text-decoration: none;
   border-bottom: 1px solid #FFD700;
   padding: .3rem; }
+  @media only screen and (max-width: 37.5em) {
+    .btn-text:link, .btn-text:visited {
+      font-size: 1.4rem; } }
 
 .btn-text:hover {
   background-color: #FFD700;
@@ -219,6 +229,9 @@ body {
         position: relative;
         width: 33.33333333%;
         box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2); } }
+    @media only screen and (max-width: 37.5em) {
+      .composition_photo {
+        width: 40%; } }
     .composition_photo--p1 {
       left: 0;
       top: -2rem; }
@@ -226,6 +239,10 @@ body {
         .composition_photo--p1 {
           top: 0;
           transform: scale(1.2); } }
+      @media only screen and (max-width: 37.5em) {
+        .composition_photo--p1 {
+          left: 1rem;
+          top: 3rem; } }
     .composition_photo--p2 {
       right: 0;
       top: .5rem; }
@@ -234,6 +251,9 @@ body {
           top: -1rem;
           transform: scale(1.3);
           z-index: 100; } }
+      @media only screen and (max-width: 37.5em) {
+        .composition_photo--p2 {
+          right: 3rem; } }
     .composition_photo--p3 {
       left: 20%;
       top: 3rem; }
@@ -242,6 +262,10 @@ body {
           top: 1rem;
           left: 0;
           transform: scale(1.1); } }
+      @media only screen and (max-width: 37.5em) {
+        .composition_photo--p3 {
+          top: -5rem;
+          left: 6rem; } }
     .composition_photo:hover {
       outline: 0.5rem solid #7ED56F;
       transform: scale(1.05) translateY(-0.5rem);
@@ -256,22 +280,6 @@ body {
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
-  .row::after {
-    content: "";
-    display: table;
-    clear: both; }
-  .row [class^="col"] {
-    float: left; }
-    .row [class^="col"]:not(:last-child) {
-      margin-right: 2rem; }
-  .row .col-1-of-2 {
-    width: calc((100% - 2rem) / 2); }
-
-.row {
-  max-width: 114rem;
-  margin: 0 auto; }
-  .row:not(:last-child) {
-    margin-bottom: 8rem; }
     @media only screen and (max-width: 56.25em) {
       .row:not(:last-child) {
         margin-bottom: 6rem; } }
@@ -279,46 +287,9 @@ body {
     .row {
       max-width: 50rem;
       padding: 0 3rem; } }
-  .row::after {
-    content: "";
-    display: table;
-    clear: both; }
-  .row [class^="col-"] {
-    float: left; }
-    .row [class^="col-"]:not(:last-child) {
-      margin-right: 2rem; }
-      @media only screen and (max-width: 56.25em) {
-        .row [class^="col-"]:not(:last-child) {
-          margin-right: 0;
-          margin-bottom: 6rem; } }
-    @media only screen and (max-width: 56.25em) {
-      .row [class^="col-"] {
-        width: 100% !important; } }
-  .row .col-1-of-2 {
-    width: calc((100%  -  2rem)  / 2); }
-  .row .col-1-of-3 {
-    width: calc((100%  -  2  *  2rem)  /3); }
-  .row .col-2-of-3 {
-    width: calc(2 * ((100%  -  2  *  2rem)  /3)  + 2rem); }
-  .row .col-1-of-4 {
-    width: calc((100%  -  3 * 2rem)  / 4); }
-  .row .col-2-of-4 {
-    width: calc(2 * ((100%  -  3 * 2rem)  / 4)  + 2rem); }
-  .row .col-3-of-4 {
-    width: calc(3 * ((100%  -  3 * 2rem)  / 4)  +  2 * 2rem); }
-
-.row {
-  max-width: 114rem;
-  margin: 0 auto; }
-  .row:not(:last-child) {
-    margin-bottom: 8rem; }
-    @media only screen and (max-width: 56.25em) {
-      .row:not(:last-child) {
-        margin-bottom: 6rem; } }
-  @media only screen and (max-width: 56.25em) {
+  @media only screen and (max-width: 37.5em) {
     .row {
-      max-width: 50rem;
-      padding: 0 3rem; } }
+      padding: 0 1rem; } }
   .row::after {
     content: "";
     display: table;
@@ -458,33 +429,39 @@ body {
 
 .gallery {
   width: 100%;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding: 5rem 2rem;
   text-align: center;
   background-image: linear-gradient(to right bottom, rgba(255, 215, 0, 0.8), rgba(190, 163, 9, 0.8), rgba(127, 109, 5, 0.8)); }
   .gallery__secondary {
     color: #fff;
     font-weight: 700;
     margin-bottom: 50px;
-    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8));
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(85, 197, 122, 0.8), rgba(40, 180, 133, 0.8));
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.5);
     letter-spacing: .1rem;
-    transition: all .2s; }
+    transition: all .2s;
+    font-size: 4rem; }
     .gallery__secondary:hover {
       transform: skewY(2deg) skewX(16deg) scale(1.1);
       text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.5); }
+    @media only screen and (max-width: 37.5em) {
+      .gallery__secondary {
+        font-size: 3rem; } }
 
 .gallery img {
   border-radius: 20px;
   transition: 1s;
-  margin: 10px;
+  margin-bottom: 2rem;
   border: 1px solid rgba(0, 0, 0, 0.413);
   width: 320px;
   object-fit: cover;
   height: 35vh; }
+  @media only screen and (max-width: 37.5em) {
+    .gallery img {
+      width: 100%; } }
 
 .gallery img:hover {
   filter: grayscale(100%);
@@ -718,9 +695,10 @@ textarea {
   background-color: #f1f1f1;
   padding: 15rem 0;
   margin-top: -20vh; }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 37.5em) {
     .section-about {
-      padding: 12rem 0; } }
+      padding-top: 10rem;
+      padding-bottom: 3rem; } }
 
 .thank {
   display: flex;
