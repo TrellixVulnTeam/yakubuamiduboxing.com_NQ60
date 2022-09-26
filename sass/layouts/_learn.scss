@@ -17,7 +17,7 @@
   font-weight: 700;
   display: block;
   background-image: linear-gradient(to right bottom, rgba($color-light-gold, 0.8), rgba($color-medium-gold, 0.8), rgba($color-dark-gold, 0.8));
-  font-size: 4rem;
+  font-size: 2.5rem;
   margin-bottom: 4rem;
   background-clip: text;
   -webkit-background-clip: text;
@@ -53,7 +53,7 @@
   text-shadow: .5rem 1rem 2rem rgba($color-black, .5);
   letter-spacing: .1rem;
   transition: all .2s;
-  font-size: 4rem;
+  font-size: 2.5rem;
 
   &:hover {
    transform: skewY(2deg) skewX(16deg) scale(1.1);
@@ -78,7 +78,7 @@
 
  .learn__p--two {
   text-align: justify;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 1.7;
   letter-spacing: .1rem;
 
@@ -89,7 +89,7 @@
 
  .learn__p--three {
   text-align: justify;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 1.7;
   letter-spacing: .1rem;
   margin-bottom: 3rem;

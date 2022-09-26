@@ -89,7 +89,7 @@ body {
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.5);
   letter-spacing: .1rem;
   transition: all .2s;
-  font-size: 4rem; }
+  font-size: 2.5rem; }
   .heading-secondary:hover {
     transform: skewY(2deg) skewX(16deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.5); }
@@ -106,7 +106,7 @@ body {
       font-size: 1.4rem; } }
 
 .paragraph {
-  font-size: 1.4rem; }
+  font-size: 1.2rem; }
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
   @media only screen and (max-width: 37.5em) {
@@ -118,21 +118,21 @@ body {
   font-weight: 700;
   margin-bottom: 3rem;
   display: inline-block;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(85, 197, 122, 0.8), rgba(40, 180, 133, 0.8));
+  background-image: linear-gradient(to right bottom, rgba(255, 215, 0, 0.8), rgba(190, 163, 9, 0.8), rgba(127, 109, 5, 0.8));
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.5);
   letter-spacing: .1rem;
   transition: all .2s;
-  font-size: 4rem;
-  margin-bottom: 3rem; }
+  font-size: 3rem;
+  margin-bottom: 2.5rem; }
   .contact__header:hover {
     transform: skewY(2deg) skewX(16deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.5); }
   @media only screen and (max-width: 37.5em) {
     .contact__header {
-      font-size: 3rem; } }
+      font-size: 2rem; } }
 
 .u-center-text {
   text-align: center; }
@@ -198,7 +198,7 @@ body {
   animation-fill-mode: backwards; }
 
 .btn-text:link, .btn-text:visited {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #FFD700;
   display: inline-block;
   text-decoration: none;
@@ -440,14 +440,14 @@ body {
     color: #fff;
     font-weight: 700;
     margin-bottom: 50px;
-    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(85, 197, 122, 0.8), rgba(40, 180, 133, 0.8));
+    background-image: linear-gradient(to right bottom, rgba(255, 215, 0, 0.8), rgba(190, 163, 9, 0.8), rgba(127, 109, 5, 0.8));
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.5);
     letter-spacing: .1rem;
     transition: all .2s;
-    font-size: 4rem; }
+    font-size: 2.5rem; }
     .gallery__secondary:hover {
       transform: skewY(2deg) skewX(16deg) scale(1.1);
       text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.5); }
@@ -524,7 +524,7 @@ hr {
   font-weight: 700;
   display: block;
   background-image: linear-gradient(to right bottom, rgba(255, 215, 0, 0.8), rgba(190, 163, 9, 0.8), rgba(127, 109, 5, 0.8));
-  font-size: 4rem;
+  font-size: 2.5rem;
   margin-bottom: 4rem;
   background-clip: text;
   -webkit-background-clip: text;
@@ -555,7 +555,7 @@ hr {
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.5);
   letter-spacing: .1rem;
   transition: all .2s;
-  font-size: 4rem; }
+  font-size: 2.5rem; }
   #learn__more--ama:hover {
     transform: skewY(2deg) skewX(16deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.5); }
@@ -573,7 +573,7 @@ hr {
 
 .learn__p--two {
   text-align: justify;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 1.7;
   letter-spacing: .1rem; }
   @media only screen and (max-width: 37.5em) {
@@ -582,7 +582,7 @@ hr {
 
 .learn__p--three {
   text-align: justify;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 1.7;
   letter-spacing: .1rem;
   margin-bottom: 3rem; }
@@ -646,7 +646,7 @@ hr {
 #contact-section {
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to right bottom, rgba(255, 215, 0, 0.8), rgba(190, 163, 9, 0.8), rgba(127, 109, 5, 0.8));
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(85, 197, 122, 0.8), rgba(127, 109, 5, 0.8));
   padding: 3rem 0; }
 
 .form-area {

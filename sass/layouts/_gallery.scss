@@ -2,21 +2,20 @@
   width: 100%;
   padding: 5rem 2rem;
   text-align: center;
-  // background-image: linear-gradient(to right bottom, rgba($color-light-gold, 0.8), rgba($color-medium-gold, 0.8), rgba($color-dark-gold, 0.8));
 
 
   &__secondary {
     color: #fff;
     font-weight: 700;
     margin-bottom: 50px;
-    background-image: linear-gradient(to right bottom, rgba($color-primary, 0.8), rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8));
+    background-image: linear-gradient(to right bottom, rgba($color-light-gold, 0.8), rgba($color-medium-gold, 0.8), rgba($color-dark-gold, 0.8));
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     text-shadow: .5rem 1rem 2rem rgba($color-black, .5);
     letter-spacing: .1rem;
     transition: all .2s;
-    font-size: 4rem;
+    font-size: 2.5rem;
 
     &:hover {
       transform: skewY(2deg) skewX(16deg) scale(1.1);
