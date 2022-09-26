@@ -106,7 +106,7 @@ body {
       font-size: 1.4rem; } }
 
 .paragraph {
-  font-size: 1.1rem; }
+  font-size: 1.4rem; }
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
   @media only screen and (max-width: 37.5em) {
@@ -198,7 +198,7 @@ body {
   animation-fill-mode: backwards; }
 
 .btn-text:link, .btn-text:visited {
-  font-size: .9rem;
+  font-size: 1.4rem;
   color: #FFD700;
   display: inline-block;
   text-decoration: none;
@@ -459,7 +459,8 @@ body {
 .gallery img {
   border-radius: 20px;
   transition: 1s;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.413);
   width: 320px;
   object-fit: cover;
@@ -554,7 +555,8 @@ hr {
   color: transparent;
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.5);
   letter-spacing: .1rem;
-  transition: all .2s; }
+  transition: all .2s;
+  font-size: 4rem; }
   #learn__more--ama:hover {
     transform: skewY(2deg) skewX(16deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.5); }
