@@ -42,6 +42,7 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .heading-primary {
@@ -49,6 +50,7 @@ header {
   text-transform: uppercase;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
+  margin-bottom: 1rem;
 }
 
 .heading-primary-main {
@@ -56,6 +58,7 @@ header {
   font-size: 40px;
   font-weight: 600;
   letter-spacing: 5px;
+  margin-bottom: 1rem;
   -webkit-animation-name: moveInLeft;
           animation-name: moveInLeft;
   -webkit-animation-duration: 1s;
@@ -133,4 +136,23 @@ header {
     opacity: 1;
     transform: translateX(0);
   }
+}
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #777;
 }/*# sourceMappingURL=main.css.map */
