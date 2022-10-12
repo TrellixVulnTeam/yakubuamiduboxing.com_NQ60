@@ -34,4 +34,31 @@ header {
 .logo {
   width: 100%;
   border-radius: 7px;
+};
+
+.text-box {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heading-primary {
+  color: $color-white;
+  text-transform: uppercase;
+};
+
+.heading-primary-main{
+   display: block;
+   font-size: 40px;
+   font-weight: 600;
+   letter-spacing: 5px;
+}
+
+.heading-primary-sub {
+   display: block;
+   font-size: 20px;
+   font-weight: 700;
+   letter-spacing: 10px;
 }
