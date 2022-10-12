@@ -1,85 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  font-size: 16px;
-  font-family: "Lato", sans-serif;
-  font-weight: 500;
-  line-height: 1.7;
-  color: #777;
-  box-sizing: border-box;
-}
-
-header {
-  height: 100vh;
-  background-image: url(../../images/title-2.png);
-  background-size: cover;
-  background-position: top;
-  position: relative;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-}
-
-.logo-box {
-  position: absolute;
-  top: 40px;
-  left: 40px;
-  width: 60px;
-  border-radius: 7px;
-  border: 2px solid #28b485;
-}
-
-.logo {
-  width: 100%;
-  border-radius: 7px;
-}
-
-.text-box {
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.heading-primary {
-  color: #fff;
-  text-transform: uppercase;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  margin-bottom: 1rem;
-}
-
-.heading-primary-main {
-  display: block;
-  font-size: 40px;
-  font-weight: 600;
-  letter-spacing: 5px;
-  margin-bottom: 1rem;
-  -webkit-animation-name: moveInLeft;
-  animation-name: moveInLeft;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-}
-
-.heading-primary-sub {
-  display: block;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 10px;
-  -webkit-animation-name: moveInRight;
-  animation-name: moveInRight;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-}
-
 @-webkit-keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -94,7 +12,6 @@ header {
     transform: translateX(0);
   }
 }
-
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -157,6 +74,88 @@ header {
     transform: translate(0);
   }
 }
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #777;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100vh;
+  background-image: url(../../images/title-2.png);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+.text-box {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  margin-bottom: 1rem;
+}
+
+.heading-primary-main {
+  display: block;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  margin-bottom: 1rem;
+  -webkit-animation-name: moveInLeft;
+          animation-name: moveInLeft;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+}
+
+.heading-primary-sub {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 10px;
+  -webkit-animation-name: moveInRight;
+          animation-name: moveInRight;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+}
+
+.logo-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 60px;
+  border-radius: 7px;
+  border: 2px solid #28b485;
+}
+
+.logo {
+  width: 100%;
+  border-radius: 7px;
+}
+
 .btn:link,
 .btn:visited {
   text-transform: uppercase;
@@ -207,7 +206,7 @@ header {
 
 .btn-animated {
   -webkit-animation: moveInBottom 0.5s ease-out 0.7s;
-  animation: moveInBottom 0.5s ease-out 0.7s;
+          animation: moveInBottom 0.5s ease-out 0.7s;
   -webkit-animation-fill-mode: backwards;
-  animation-fill-mode: backwards;
-} /*# sourceMappingURL=main.css.map */
+          animation-fill-mode: backwards;
+}/*# sourceMappingURL=main.css.map */
