@@ -135,5 +135,5 @@ header {
   opacity: 0; }
 
 .btn-animated {
-  animation: moveInBottom .5s ease-out .7s;
+  animation: moveInBottom 0.5s ease-out 0.7s;
   animation-fill-mode: backwards; }

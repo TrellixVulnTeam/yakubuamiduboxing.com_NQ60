@@ -19,7 +19,7 @@ header {
   background-position: top;
   position: relative;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
 .logo-box {
@@ -49,7 +49,7 @@ header {
   color: #fff;
   text-transform: uppercase;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   margin-bottom: 1rem;
 }
 
@@ -60,11 +60,11 @@ header {
   letter-spacing: 5px;
   margin-bottom: 1rem;
   -webkit-animation-name: moveInLeft;
-          animation-name: moveInLeft;
+  animation-name: moveInLeft;
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
 }
 
 .heading-primary-sub {
@@ -73,11 +73,11 @@ header {
   font-weight: 700;
   letter-spacing: 10px;
   -webkit-animation-name: moveInRight;
-          animation-name: moveInRight;
+  animation-name: moveInRight;
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
 }
 
 @-webkit-keyframes moveInLeft {
@@ -207,7 +207,7 @@ header {
 
 .btn-animated {
   -webkit-animation: moveInBottom 0.5s ease-out 0.7s;
-          animation: moveInBottom 0.5s ease-out 0.7s;
+  animation: moveInBottom 0.5s ease-out 0.7s;
   -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
-}/*# sourceMappingURL=main.css.map */
+  animation-fill-mode: backwards;
+} /*# sourceMappingURL=main.css.map */
