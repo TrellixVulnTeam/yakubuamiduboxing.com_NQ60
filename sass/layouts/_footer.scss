@@ -15,6 +15,10 @@
     border-radius: 10px;
     border: 2px solid $color-white;
     height: auto;
+
+    @include respond(phone){
+      width: 10rem;
+    }
   }
 
   &__navigation {
@@ -78,12 +82,11 @@
   max-width: 500px;
   margin: 0 auto;
   display: flex;
-}
 
-@media only screen and (max-width: 600px) {
-  .social-menu ul {
+  @include respond(phone){
     max-width: 300px;
     padding-left: 0;
+    padding: 2rem;
     align-items: center;
     justify-content: center;
   }
@@ -92,11 +95,9 @@
 .social-menu ul li {
   list-style: none;
   margin: 0 15px;
-}
 
-@media only screen and (max-width: 600px) {
-  .social-menu ul li {
-    margin: 0 5px;
+  @include respond(phone){
+    margin: 0 2px;
   }
 }
 
@@ -105,12 +106,10 @@
   line-height: 60px;
   transition: 0.3s;
   color: #000;
-}
 
-@media only screen and (max-width: 600px) {
-  .social-menu ul li .fab {
-    font-size: 20px;
-    line-height: 52px;
+  @include respond(phone){
+    line-height: 41px;
+    font-size: 25px;
   }
 }
 
@@ -128,12 +127,10 @@
   text-align: center;
   transition: 0.6s;
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
-}
 
-@media only screen and (max-width: 600px) {
-  .social-menu ul li a {
-    width: 50px;
-    height: 50px;
+  @include respond(phone){
+    width: 40px;
+    height: 40px;
   }
 }
 
