@@ -19,7 +19,6 @@ by [Lokesh Dhakar](http://www.lokeshdhakar.com)
 - **Questions on Stackoverflow.** See Questions tagged with [lightbox2](https://stackoverflow.com/questions/tagged/lightbox2).
 - **Release instructions.** See [DEPLOY.md](https://github.com/lokesh/lightbox2/blob/master/DEPLOY.md).
 
-
 ### Local development
 
 - Install [Bower](https://bower.io/) and [Grunt](https://gruntjs.com/).
@@ -27,4 +26,3 @@ by [Lokesh Dhakar](http://www.lokeshdhakar.com)
 - Start local server: `grunt`
 - Navigate to `localhost:8000/examples`
 - Update `examples/index.html` to load `src/js/lightbox.js` and jQuery.
-

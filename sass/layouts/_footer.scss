@@ -5,41 +5,41 @@
   padding-bottom: 4rem;
   font-size: 1rem;
 
-  &__logo-box{
+  &__logo-box {
     text-align: center;
     margin-bottom: 4rem;
-  };
+  }
 
   &__logo {
     width: 15rem;
     border-radius: 10px;
     border: 2px solid $color-white;
     height: auto;
-  };
+  }
 
   &__navigation {
     border-top: 1px solid $color-grey-light-1;
     display: inline-block;
     padding: 1rem;
 
-    @include respond(tab-port){
+    @include respond(tab-port) {
       width: 100%;
       text-align: center;
-      }
-  };
+    }
+  }
 
   li {
-    padding: .5rem;
+    padding: 0.5rem;
   }
 
   &__list {
     list-style: none;
     padding-left: 0;
-  };
+  }
 
   &__item {
-   display: inline-block;
-  };
+    display: inline-block;
+  }
 
   &__link {
     &:link,
@@ -49,8 +49,8 @@
       text-decoration: none;
       text-transform: capitalize;
       display: inline-block;
-      transition: all .2s;
-    };
+      transition: all 0.2s;
+    }
 
     &:hover,
     &:active {
@@ -65,22 +65,22 @@
     float: right;
     padding-top: 1rem;
 
-    @include respond(tab-port){
+    @include respond(tab-port) {
       width: 100%;
       float: none;
     }
   }
 }
 
-.social-menu ul{
+.social-menu ul {
   text-align: center;
   justify-content: center;
   max-width: 500px;
   margin: 0 auto;
   display: flex;
-};
+}
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
   .social-menu ul {
     max-width: 300px;
     padding-left: 0;
@@ -89,36 +89,36 @@
   }
 }
 
-.social-menu ul li{
+.social-menu ul li {
   list-style: none;
   margin: 0 15px;
-};
+}
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
   .social-menu ul li {
     margin: 0 5px;
   }
 }
 
-.social-menu ul li .fab{
+.social-menu ul li .fab {
   font-size: 30px;
   line-height: 60px;
-  transition: .3s;
+  transition: 0.3s;
   color: #000;
-};
+}
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
   .social-menu ul li .fab {
     font-size: 20px;
     line-height: 52px;
   }
 }
 
-.social-menu ul li .fab:hover{
+.social-menu ul li .fab:hover {
   color: #fff;
 }
 
-.social-menu ul li a{
+.social-menu ul li a {
   position: relative;
   display: block;
   width: 60px;
@@ -126,33 +126,33 @@
   border-radius: 50%;
   background-color: #fff;
   text-align: center;
-  transition: .6s;
-  box-shadow: 0 5px 4px rgba(0,0,0,.5);
-};
+  transition: 0.6s;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+}
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
   .social-menu ul li a {
-     width: 50px;
-     height: 50px;
+    width: 50px;
+    height: 50px;
   }
 }
 
-.social-menu ul li a:hover{
+.social-menu ul li a:hover {
   transform: translate(0, -10%);
 }
 
-.social-menu ul li:nth-child(1) a:hover{
+.social-menu ul li:nth-child(1) a:hover {
   background-color: rgba(0, 0, 0, 0.829);
 }
-.social-menu ul li:nth-child(2) a:hover{
-  background-color: #E4405F;
+.social-menu ul li:nth-child(2) a:hover {
+  background-color: #e4405f;
 }
-.social-menu ul li:nth-child(3) a:hover{
+.social-menu ul li:nth-child(3) a:hover {
   background-color: #0077b5;
 }
-.social-menu ul li:nth-child(4) a:hover{
+.social-menu ul li:nth-child(4) a:hover {
   background-color: #000;
 }
-.social-menu ul li:nth-child(5) a:hover{
+.social-menu ul li:nth-child(5) a:hover {
   background-color: #0077b5;
 }

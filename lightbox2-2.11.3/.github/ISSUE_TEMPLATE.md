@@ -3,7 +3,7 @@
 ## Trouble using Lightbox?
 
 1. Search [Stackoverflow](https://stackoverflow.com/questions/tagged/lightbox2) to see if other people have run into similar issues.
-3. If you don't find anything similar, then post a new question on [Stackoverflow](https://stackoverflow.com/questions/ask). Use the `lightbox2` tag.
+2. If you don't find anything similar, then post a new question on [Stackoverflow](https://stackoverflow.com/questions/ask). Use the `lightbox2` tag.
 
 ## Have a Feature Request?
 
@@ -12,7 +12,6 @@
 3. If your feature request is unique, then post a new question on [Stackoverflow](https://stackoverflow.com/questions/ask). Use the `lightbox2` tag.
 
 View the project [Roadmap](https://github.com/lokesh/lightbox2/blob/master/ROADMAP.md).
-
 
 ## Found a Bug?
 

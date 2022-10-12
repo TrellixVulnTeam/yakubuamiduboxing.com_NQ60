@@ -15,5 +15,8 @@
     "node-sass": "^7.0.1",
     "phpmailer": "phpmailer/phpmailer",
     "require": "^2.4.20"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1"
   }
 }

@@ -66,10 +66,9 @@
     "!=",
     "!=="
   ],
-  "disallowMixedSpacesAndTabs" : true,
+  "disallowMixedSpacesAndTabs": true,
   "disallowTrailingWhitespace": true,
   "disallowTrailingComma": true,
   "requireLineFeedAtFileEnd": true,
   "requireCapitalizedConstructors": true
 }
-
