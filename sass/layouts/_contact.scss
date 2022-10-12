@@ -12,6 +12,11 @@
     rgba($color-dark-gold, 0.8)
   );
   padding: 3rem 0;
+
+  @include respond(phone){
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 .form-area {
@@ -27,6 +32,10 @@
   color: $color-white;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   position: relative;
+
+  @include respond(phone){
+    width: 100%;
+  }
 }
 
 .wrapper::before {
