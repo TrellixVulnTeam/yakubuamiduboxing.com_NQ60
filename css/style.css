@@ -269,6 +269,9 @@ body {
         .composition_photo--p3 {
           top: -5rem;
           left: 6rem; } }
+      @media only screen and (max-width: 37.5em) {
+        .composition_photo--p3 {
+          left: 3rem; } }
     .composition_photo:hover {
       outline: 0.5rem solid #7ed56f;
       transform: scale(1.05) translateY(-0.5rem);
@@ -281,35 +284,32 @@ body {
   max-width: 114rem;
   padding: 0 4rem;
   margin: 0 auto; }
-  .row:not(:last-child) {
-    margin-bottom: 8rem; }
+
+@media only screen and (max-width: 56.25em) {
+  max-width: 50rem;
+  padding: 0 3rem; }
+
+@media only screen and (max-width: 37.5em) {
+  padding: 0 1rem; }
+
+::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+[class^="col-"] {
+  float: left; }
+  [class^="col-"]:not(:last-child) {
+    margin-right: 2rem; }
     @media only screen and (max-width: 56.25em) {
-      .row:not(:last-child) {
-        margin-bottom: 6rem; } }
+      [class^="col-"]:not(:last-child) {
+        margin-right: 0; } }
   @media only screen and (max-width: 56.25em) {
-    .row {
-      max-width: 50rem;
-      padding: 0 3rem; } }
-  @media only screen and (max-width: 37.5em) {
-    .row {
-      padding: 0 1rem; } }
-  .row::after {
-    content: "";
-    display: table;
-    clear: both; }
-  .row [class^="col-"] {
-    float: left; }
-    .row [class^="col-"]:not(:last-child) {
-      margin-right: 2rem; }
-      @media only screen and (max-width: 56.25em) {
-        .row [class^="col-"]:not(:last-child) {
-          margin-right: 0;
-          margin-bottom: 6rem; } }
-    @media only screen and (max-width: 56.25em) {
-      .row [class^="col-"] {
-        width: 100% !important; } }
-  .row .col-1-of-2 {
-    width: calc((100% - 2rem) / 2); }
+    [class^="col-"] {
+      width: 100% !important; } }
+
+.col-1-of-2 {
+  width: calc((100% - 2rem) / 2); }
 
 .footer {
   background-color: #333;
@@ -451,7 +451,8 @@ body {
       text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.5); }
     @media only screen and (max-width: 37.5em) {
       .gallery__secondary {
-        font-size: 3rem; } }
+        text-transform: uppercase;
+        font-size: 2.5rem; } }
 
 .gallery img {
   border-radius: 20px;
@@ -536,7 +537,8 @@ hr {
   @media only screen and (max-width: 37.5em) {
     #learn__more--pro {
       margin-bottom: 4rem;
-      font-size: 3rem; } }
+      text-transform: uppercase;
+      font-size: 2.5rem; } }
 
 .learn__more--box {
   max-width: 80rem;
@@ -560,7 +562,8 @@ hr {
   @media only screen and (max-width: 37.5em) {
     #learn__more--ama {
       margin-bottom: 4rem;
-      font-size: 3rem; } }
+      text-transform: uppercase;
+      font-size: 2.5rem; } }
 
 .u-margin-right {
   margin-right: 3rem; }
@@ -576,7 +579,8 @@ hr {
   letter-spacing: 0.1rem; }
   @media only screen and (max-width: 37.5em) {
     .learn__p--two {
-      font-size: 1.4rem; } }
+      font-size: 1.4rem;
+      letter-spacing: 0rem; } }
 
 .learn__p--three {
   text-align: justify;
@@ -586,7 +590,8 @@ hr {
   margin-bottom: 3rem; }
   @media only screen and (max-width: 37.5em) {
     .learn__p--three {
-      font-size: 1.4rem; } }
+      font-size: 1.4rem;
+      letter-spacing: 0rem; } }
 
 .u-margin-left {
   margin-left: 3rem; }
@@ -655,6 +660,10 @@ hr {
   display: grid;
   place-items: center;
   height: 100%; }
+
+.contact__header {
+  text-transform: uppercase;
+  font-size: 1.5rem; }
 
 .wrapper {
   width: 400px;

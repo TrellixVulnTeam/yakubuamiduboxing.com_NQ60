@@ -23,6 +23,11 @@
   display: grid;
   place-items: center;
   height: 100%;
+};
+
+.contact__header {
+  text-transform: uppercase;
+  font-size: 1.5rem;
 }
 
 .wrapper {

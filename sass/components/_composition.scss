@@ -65,6 +65,10 @@
         top: -5rem;
         left: 6rem;
       }
+
+      @include respond(phone){
+        left: 3rem;
+      }
     }
     &:hover {
       outline: 0.5rem solid $color-primary;

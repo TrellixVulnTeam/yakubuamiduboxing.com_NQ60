@@ -2,13 +2,6 @@
   max-width: $grid-width;
   padding: 0 4rem;
   margin: 0 auto;
-
-  &:not(:last-child) {
-    margin-bottom: $gutter-vertical;
-
-    @include respond(tab-port) {
-      margin-bottom: $gutter-vertical-small;
-    }
   }
 
   @include respond(tab-port) {
@@ -30,7 +23,6 @@
 
       @include respond(tab-port) {
         margin-right: 0;
-        margin-bottom: $gutter-vertical-small;
       }
     }
 
@@ -42,4 +34,3 @@
   .col-1-of-2 {
     width: calc((100% - #{$gutter-horizontal}) / 2);
   }
-}
