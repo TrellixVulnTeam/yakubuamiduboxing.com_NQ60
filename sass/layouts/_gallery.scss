@@ -1,54 +1,106 @@
 .gallery {
-  width: 100%;
-  padding: 5rem 2rem;
-  text-align: center;
+  background-color: $color-grey-light-1;
 
-  &__secondary {
-    color: #fff;
-    font-weight: 700;
-    margin-bottom: 50px;
-    background-image: linear-gradient(
-      to right bottom,
-      rgba($color-light-gold, 0.8),
-      rgba($color-medium-gold, 0.8),
-      rgba($color-dark-gold, 0.8)
-    );
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.5);
-    letter-spacing: 0.1rem;
-    transition: all 0.2s;
-    font-size: 2.5rem;
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $color-white;
+    width: 94%;
+    padding: 20px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    margin: 0px auto;
+  }
+
+  &__item {
+    flex-basis: 32.7%;
+    margin-bottom: 6px;
+    margin: 2px;
+    opacity: 0.85;
+    cursor: pointer;
 
     &:hover {
-      transform: skewY(2deg) skewX(16deg) scale(1.1);
-      text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.5);
+      opacity: 1;
     }
 
-    @include respond(phone) {
-      text-transform: uppercase;
-      font-size: 2.5rem;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
 }
 
-.gallery img {
-  border-radius: 20px;
-  transition: 1s;
-  margin-bottom: 1rem;
-  margin-right: 1rem;
-  border: 1px solid rgba($color-black, 0.413);
-  width: 320px;
-  object-fit: cover;
-  height: 35vh;
+/*lightbox*/
+.lightbox {
+  position: fixed;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  top: 0;
+  left: 0;
+}
 
-  @include respond(phone) {
+.lightbox-content {
+  position: relative;
+  width: 65%;
+  height: 58%;
+  margin: 5% auto;
+  margin-top: 100px;
+}
+
+.lightbox-content img {
+  width: 100%;
+  height: 100%;
+  border: 6px solid $color-white;
+  object-fit: cover;
+}
+
+.lightbox-prev,
+.lightbox-next {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: $color-white;
+  padding: 9px;
+  top: 45%;
+  cursor: pointer;
+}
+
+.lightbox-prev {
+  left: 0;
+}
+
+.lightbox-next {
+  right: 0;
+}
+
+/*Make it responsive*/
+@media (max-width: 767px) {
+  .gallery__container {
     width: 100%;
   }
+
+  .gallery__item {
+    flex-basis: 49.80%;
+    margin-bottom: 3px;
+  }
+
+  .lightbox-content {
+    width: 80%;
+    height: 60%;
+    margin: 15% auto;
+  }
 }
 
-.gallery img:hover {
-  filter: grayscale(100%);
-  transform: scale(1.1);
+@media (max-width: 600px) {
+  .gallery__item {
+    flex-basis: 100%;
+    margin-bottom: 1px;
+  }
+
+  .lightbox-content {
+    width: 90%;
+    margin: 20px auto;
+  }
 }

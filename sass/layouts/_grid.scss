@@ -2,35 +2,35 @@
   max-width: $grid-width;
   padding: 0 4rem;
   margin: 0 auto;
+}
+
+@include respond(tab-port) {
+  max-width: 50rem;
+  padding: 0 3rem;
+}
+
+@include respond(phone) {
+  padding: 0 1rem;
+}
+
+@include clearfix;
+
+[class^="col-"] {
+  float: left;
+
+  &:not(:last-child) {
+    margin-right: $gutter-horizontal;
+
+    @include respond(tab-port) {
+      margin-right: 0;
+    }
   }
 
   @include respond(tab-port) {
-    max-width: 50rem;
-    padding: 0 3rem;
+    width: 100% !important;
   }
+}
 
-  @include respond(phone) {
-    padding: 0 1rem;
-  }
-
-  @include clearfix;
-
-  [class^="col-"] {
-    float: left;
-
-    &:not(:last-child) {
-      margin-right: $gutter-horizontal;
-
-      @include respond(tab-port) {
-        margin-right: 0;
-      }
-    }
-
-    @include respond(tab-port) {
-      width: 100% !important;
-    }
-  }
-
-  .col-1-of-2 {
-    width: calc((100% - #{$gutter-horizontal}) / 2);
-  }
+.col-1-of-2 {
+  width: calc((100% - #{$gutter-horizontal}) / 2);
+}

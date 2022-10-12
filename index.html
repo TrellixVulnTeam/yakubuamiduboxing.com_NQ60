@@ -40,6 +40,7 @@
     <script src="js/lightbox-plus-jquery.min.js"></script>
 
     <!-- <link rel="stylesheet" href="./social-media-icons.css" /> -->
+
     <script
       src="https://kit.fontawesome.com/66aa7c98b3.js"
       crossorigin="anonymous"
@@ -102,32 +103,7 @@
 
           <div class="col-1-of-2">
             <div class="composition">
-              <img
-                srcset="images/title-1.png 300w, images/title-1-large.png 1000w"
-                sizes="(max-width: 56.25em) 20vw,  (max-width: 37.5em) 30vw, 300px"
-                alt="photo 1"
-                class="composition_photo composition_photo--p1"
-                src="images/large1.jpg"
-              />
-
-              <img
-                srcset="
-                  images/proboxing-5.png        300w,
-                  images/proboxing-5-large.png 1000w
-                "
-                sizes="(max-width: 56.25em) 20vw,  (max-width: 37.5em) 30vw, 300px"
-                alt="photo 2"
-                class="composition_photo composition_photo--p2"
-                src="img/large2.jpg"
-              />
-
-              <img
-                srcset="images/title-4.png 300w, images/title-4-large.png 1000w"
-                sizes="(max-width: 56.25em) 20vw,  (max-width: 37.5em) 30vw, 300px"
-                alt="photo 3"
-                class="composition_photo composition_photo--p3"
-                src="images/large3.jpg"
-              />
+              images
             </div>
           </div>
         </div>
@@ -136,60 +112,44 @@
     <hr />
     <div class="gallery">
       <h2 class="gallery__secondary">Gallery</h2>
-      <a
-        href="./images/proboxing-1.png"
-        data-lightbox="mygallery"
-        data-title="Proboxing1"
-        ><img src="./images/proboxing-1.png" alt="img" class="gallery__one"
-      /></a>
-      <a
-        href="./images/proboxing-2.png"
-        data-lightbox="mygallery"
-        data-title="Proboxing2"
-        ><img src="./images/proboxing-2.png" alt="img" class="gallery__one"
-      /></a>
-      <a
-        href="./images/proboxing-4.png"
-        data-lightbox="mygallery"
-        data-title="Proboxing4"
-        ><img src="./images/proboxing-4.png" alt="img" class="gallery__one"
-      /></a>
-      <a
-        href="./images/proboxing-3.png"
-        data-lightbox="mygallery"
-        data-title="Proboxing3"
-        ><img src="./images/proboxing-3.png" alt="img" class="gallery__one"
-      /></a>
-      <a
-        href="./images/proboxing-9.png"
-        data-lightbox="mygallery"
-        data-title="Proboxing9"
-        ><img src="./images/proboxing-9.png" alt="img" class="gallery__one"
-      /></a>
-      <a
-        href="./images/proboxing-10.png"
-        data-lightbox="mygallery"
-        data-title="Proboxing10"
-        ><img src="./images/proboxing-10.png" alt="img" class="gallery__one"
-      /></a>
-      <a
-        href="./images/proboxing-11.png"
-        data-lightbox="mygallery"
-        data-title="Proboxing11"
-        ><img src="./images/proboxing-11.png" alt="img" class="gallery__one"
-      /></a>
-      <a
-        href="./images/proboxing-8.png"
-        data-lightbox="mygallery"
-        data-title="probxing8"
-        ><img src="./images/proboxing-8.png" alt="img" class="gallery__one"
-      /></a>
-      <a
-        href="./images/proboxing-7.png"
-        data-lightbox="mygallery"
-        data-title="Proboxing7"
-        ><img src="./images/proboxing-7.png" alt="img" class="gallery__one"
-      /></a>
+      <div class="gallery__container">
+        <div class="gallery__item" data-index="1">
+            <img src="images/proboxing-1.png" alt="img"/>
+        </div>
+        <div class="gallery__item" data-index="2">
+          <img src="images/proboxing-2.png" alt="img" />
+        </div>
+        <div class="gallery__item" data-index="3">
+          <img src="images/proboxing-3.png" alt="img" />
+        </div>
+        <div class="gallery__item" data-index="4">
+          <img src="images/proboxing-4.png" alt="img" />
+        </div>
+        <div class="gallery__item" data-index="5">
+          <img src="images/proboxing-5.png" alt="img" />
+        </div>
+        <div class="gallery__item" data-index="6">
+          <img src="images/proboxing-6.png" alt="img" />
+        </div>
+        <div class="gallery__item" data-index="7">
+          <img src="images/proboxing-7.png" alt="img" />
+        </div>
+        <div class="gallery__item" data-index="8">
+          <img src="images/proboxing-8.png" alt="img" />
+        </div>
+        <div class="gallery__item" data-index="9">
+          <img src="images/proboxing-9.png" alt="img" />
+        </div>
+        <div class="gallery__item" data-index="10">
+          <img src="images/proboxing-10.png" alt="img" />
+        </div>
+        <div class="gallery__item" data-index="11">
+          <img src="images/proboxing-11.png" alt="img" />
+        </div>
+        <div class="gallery__item" data-index="12">
+          <img src="images/proboxing-12.png" alt="img" />
+        </div>
+      </div>
     </div>
     <hr />
     <div class="learn__more--section">
@@ -359,5 +319,6 @@
         </ul>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
