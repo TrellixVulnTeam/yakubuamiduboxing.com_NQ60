@@ -10,11 +10,13 @@ body {
   line-height: 1.7;
   color: $color-grey-dark-2;
   box-sizing: border-box;
-};
+}
 
 header {
-height: 100vh;
-background-image: url(../../images/title-2.png);
-background-size: cover;
-background-position: top;
+  height: 100vh;
+  background-image: url(../../images/title-2.png);
+  background-size: cover;
+  background-position: top;
+
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }

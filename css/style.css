@@ -14,4 +14,5 @@ header {
   height: 100vh;
   background-image: url(../../images/title-2.png);
   background-size: cover;
-  background-position: top; }
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
