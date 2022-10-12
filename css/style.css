@@ -85,13 +85,21 @@ header {
     opacity: 1;
     transform: translateX(0); } }
 
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(50px); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
 .btn:link,
 .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
   border-radius: 10px;
-  transition: all .2s;
+  transition: all 0.2s;
   position: relative; }
 
 .btn:hover {
@@ -117,7 +125,7 @@ header {
   top: 0;
   left: 0;
   z-index: -1;
-  transition: all .4s; }
+  transition: all 0.4s; }
 
 .btn-white::after {
   background-color: #fff; }
@@ -125,3 +133,7 @@ header {
 .btn:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0; }
+
+.btn-animated {
+  animation: moveInBottom .5s ease-out .7s;
+  animation-fill-mode: backwards; }
