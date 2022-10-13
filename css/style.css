@@ -64,9 +64,9 @@ header {
 
 .heading-primary-main {
   display: block;
-  font-size: 40px;
-  font-weight: 600;
-  letter-spacing: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 10px;
   margin-bottom: 1rem;
   animation-name: moveInLeft;
   animation-duration: 1s;
@@ -74,9 +74,9 @@ header {
 
 .heading-primary-sub {
   display: block;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 10px;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 5px;
   animation-name: moveInRight;
   animation-duration: 1s;
   animation-timing-function: ease-out; }
@@ -88,6 +88,10 @@ header {
   width: 60px;
   border-radius: 7px;
   border: 2px solid #28b485; }
+  @media only screen and (max-width: 23.4em) {
+    .logo-box {
+      top: 20px;
+      left: 20px; } }
 
 .logo {
   width: 100%;
