@@ -212,15 +212,28 @@ header {
     z-index: 10;
     transition: all 0.2s;
     outline-offset: 0.5rem; }
+    @media only screen and (max-width: 37.5em) {
+      .composition__photo {
+        width: 80%; } }
     .composition__photo--p1 {
       top: 2rem;
       left: 0; }
+      @media only screen and (max-width: 37.5em) {
+        .composition__photo--p1 {
+          top: 10rem; } }
     .composition__photo--p2 {
       top: 9rem;
       right: 0; }
+      @media only screen and (max-width: 37.5em) {
+        .composition__photo--p2 {
+          top: 15rem; } }
     .composition__photo--p3 {
       top: 15rem;
       left: 11%; }
+      @media only screen and (max-width: 37.5em) {
+        .composition__photo--p3 {
+          top: 25rem;
+          left: 1rem; } }
     .composition__photo:hover {
       outline: 1rem solid #7ed56f;
       transform: scale(1.05) translateY(-0.5);
