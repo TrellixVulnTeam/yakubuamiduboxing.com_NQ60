@@ -91,8 +91,8 @@ header {
   -webkit-background-clip: text;
   color: transparent;
   display: inline-block;
-  letter-spacing: .2rem;
-  transition: all .2s; }
+  letter-spacing: 0.2rem;
+  transition: all 0.2s; }
   .heading-secondary:hover {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.3); }
@@ -188,7 +188,7 @@ header {
   text-decoration: none;
   border-bottom: 1px solid #7ed56f;
   padding: 3px;
-  transition: all .2s; }
+  transition: all 0.2s; }
 
 .btn-text:hover {
   background-color: #7ed56f;
@@ -199,6 +199,33 @@ header {
 .btn-text:active {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transform: translateY(0); }
+
+.composition {
+  position: relative; }
+  .composition__photo {
+    width: 55%;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    position: absolute;
+    z-index: 10;
+    transition: all .2s;
+    outline-offset: .5rem; }
+    .composition__photo--p1 {
+      top: -1rem;
+      left: 0; }
+    .composition__photo--p2 {
+      top: 4rem;
+      right: 0; }
+    .composition__photo--p3 {
+      top: 10rem;
+      left: 11%; }
+    .composition__photo:hover {
+      outline: 1rem solid #7ed56f;
+      transform: scale(1.05);
+      box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.4);
+      z-index: 20; }
+  .composition:hover .composition__photo:not(:hover) {
+    transform: scale(0.9); }
 
 .row {
   max-width: 114rem;

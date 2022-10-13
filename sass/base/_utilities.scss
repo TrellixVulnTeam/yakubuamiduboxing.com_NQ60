@@ -5,7 +5,7 @@
   width: 60px;
   border-radius: 7px;
 
-  @include respond(small-phone){
+  @include respond(small-phone) {
     top: 20px;
     left: 20px;
   }
@@ -15,10 +15,18 @@
   width: 100%;
   border-radius: 7px;
   border: 2px solid $color-primary-dark;
-};
+}
 
-.u-center-text { text-align: center; };
+.u-center-text {
+  text-align: center;
+}
 
-.u-margin-bottom-small{ margin-bottom: 1.5rem };
-.u-margin-bottom-medium { margin-bottom: 4rem };
-.u-margin-bottom-big { margin-bottom: 8rem; };
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem;
+}
+.u-margin-bottom-medium {
+  margin-bottom: 4rem;
+}
+.u-margin-bottom-big {
+  margin-bottom: 8rem;
+}
