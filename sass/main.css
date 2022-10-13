@@ -299,15 +299,15 @@ header {
   outline-offset: 0.5rem;
 }
 .composition__photo--p1 {
-  top: -1rem;
+  top: 2rem;
   left: 0;
 }
 .composition__photo--p2 {
-  top: 4rem;
+  top: 9rem;
   right: 0;
 }
 .composition__photo--p3 {
-  top: 10rem;
+  top: 15rem;
   left: 11%;
 }
 .composition__photo:hover {
@@ -322,6 +322,7 @@ header {
 
 .row {
   max-width: 114rem;
+  padding: 2rem 2rem;
   margin: 0 auto;
 }
 .row:not(:last-child) {
@@ -339,6 +340,7 @@ header {
   margin-right: 2rem;
 }
 .row .col-1-of-2 {
+  padding: 0.5rem 1.5rem;
   width: calc((100% - 2rem) / 2);
 }
 
