@@ -122,6 +122,18 @@ header {
   border-radius: 7px;
   border: 2px solid #28b485; }
 
+.u-center-text {
+  text-align: center; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem; }
+
 .btn:link,
 .btn:visited {
   text-transform: uppercase;
@@ -166,18 +178,6 @@ header {
 .btn-animated {
   animation: moveInBottom 0.5s ease-out 0.7s;
   animation-fill-mode: backwards; }
-
-.u-center-text {
-  text-align: center; }
-
-.u-margin-bottom-small {
-  margin-bottom: 1.5rem; }
-
-.u-margin-bottom-medium {
-  margin-bottom: 4rem; }
-
-.u-margin-bottom-big {
-  margin-bottom: 8rem; }
 
 .row {
   max-width: 114rem;
