@@ -145,7 +145,7 @@ header {
 }
 
 .heading-secondary {
-  font-size: 2rem;
+  font-size: 3rem;
   text-transform: uppercase;
   font-weight: 900;
   background-image: linear-gradient(to right, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8));
@@ -163,12 +163,14 @@ header {
 
 .heading-tertiary {
   font-size: 1.6rem;
+  color: #777;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .paragraph {
   font-size: 1.6rem;
+  color: #777;
 }
 .paragraph:not(:last-child) {
   margin-bottom: 3rem;
