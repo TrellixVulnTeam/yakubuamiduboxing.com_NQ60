@@ -205,6 +205,9 @@ header {
 
 .composition {
   position: relative; }
+  @media only screen and (max-width: 37.5em) {
+    .composition {
+      height: 500px; } }
   .composition__photo {
     width: 55%;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
@@ -213,40 +216,54 @@ header {
     z-index: 10;
     transition: all 0.2s;
     outline-offset: 0.5rem; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 56.25em) {
+      .composition__photo {
+        width: 80%; } }
+    @media only screen and (max-width: 25em) {
       .composition__photo {
         width: 80%; } }
     .composition__photo--p1 {
       top: 2rem;
       left: 0; }
+      @media only screen and (max-width: 56.25em) {
+        .composition__photo--p1 {
+          left: -15px; } }
       @media only screen and (max-width: 37.5em) {
         .composition__photo--p1 {
-          top: 10rem; } }
-      @media only screen and (max-width: 23.4em) {
+          top: 8rem;
+          left: 15px; } }
+      @media only screen and (max-width: 25em) {
         .composition__photo--p1 {
-          top: -6rem;
-          left: 4rem; } }
-    .composition__photo--p2 {
-      top: 9rem;
-      right: 0; }
-      @media only screen and (max-width: 37.5em) {
-        .composition__photo--p2 {
-          top: 15rem; } }
-      @media only screen and (max-width: 23.4em) {
-        .composition__photo--p2 {
           top: 5rem;
-          left: -1rem; } }
+          left: 0rem; } }
+    .composition__photo--p2 {
+      top: 17rem;
+      right: 0; }
+      @media only screen and (max-width: 56.25em) {
+        .composition__photo--p2 {
+          top: 12rem; } }
+      @media only screen and (max-width: 37.5em) {
+        .composition__photo--p2 {
+          top: 15rem;
+          right: 15px; } }
+      @media only screen and (max-width: 25em) {
+        .composition__photo--p2 {
+          top: 19rem;
+          left: 3rem; } }
     .composition__photo--p3 {
       top: 15rem;
       left: 11%; }
+      @media only screen and (max-width: 56.25em) {
+        .composition__photo--p3 {
+          top: 8rem;
+          left: 5%; } }
       @media only screen and (max-width: 37.5em) {
         .composition__photo--p3 {
           top: 25rem;
-          left: 1rem; } }
-      @media only screen and (max-width: 23.4em) {
+          left: 21%; } }
+      @media only screen and (max-width: 25em) {
         .composition__photo--p3 {
-          top: 0rem;
-          left: 7rem; } }
+          top: 28rem; } }
     .composition__photo:hover {
       outline: 1rem solid #7ed56f;
       transform: scale(1.05) translateY(-0.5);
@@ -257,9 +274,14 @@ header {
 
 .row {
   max-width: 114rem;
-  height: 100vh;
-  padding: 2rem 2rem;
+  height: 100%;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 3rem;
   margin: 0 auto; }
+  @media only screen and (max-width: 56.25em) {
+    .row {
+      padding-bottom: 8rem; } }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
   .row::after {
@@ -271,13 +293,11 @@ header {
     .row [class^="col-"]:not(:last-child) {
       margin-right: 2rem; }
   .row .col-1-of-2 {
-    padding: .5rem 1.5rem;
     width: calc((100% - 2rem) / 2); }
-    @media only screen and (max-width: 23.4em) {
+    @media only screen and (max-width: 37.5em) {
       .row .col-1-of-2 {
         width: 100%; } }
 
 .about {
   height: 100%;
-  padding-top: 4rem;
-  padding-bottom: 12rem; }
+  padding-top: 4rem; }

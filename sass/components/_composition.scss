@@ -1,6 +1,10 @@
 .composition {
   position: relative;
 
+  @include respond(phone){
+    height: 500px;
+  }
+
   &__photo {
     width: 55%;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
@@ -10,7 +14,11 @@
     transition: all 0.2s;
     outline-offset: 0.5rem;
 
-    @include respond(phone){
+    @include respond(tab-port){
+      width: 80%;
+    }
+
+    @include respond(extra-small-phone){
       width: 80%;
     }
 
@@ -18,27 +26,37 @@
       top: 2rem;
       left: 0;
 
-      @include respond(phone){
-        top: 10rem;
+      @include respond(tab-port){
+        left: -15px;
       }
 
-      @include respond(small-phone){
-        top: -6rem;
-        left: 4rem;
+      @include respond(phone){
+        top: 8rem;
+        left: 15px;
+      }
+
+      @include respond(extra-small-phone){
+        top: 5rem;
+        left: 0rem;
       }
     }
 
     &--p2 {
-      top: 9rem;
+      top: 17rem;
       right: 0;
+
+      @include respond(tab-port){
+        top: 12rem;
+      }
 
       @include respond(phone){
         top: 15rem;
+        right: 15px;
       }
 
-      @include respond(small-phone){
-        top: 5rem;
-        left: -1rem;
+      @include respond(extra-small-phone){
+        top: 19rem;
+        left: 3rem;
       }
     }
 
@@ -46,14 +64,18 @@
       top: 15rem;
       left: 11%;
 
-      @include respond(phone){
-        top: 25rem;
-        left: 1rem;
+      @include respond(tab-port){
+        top: 8rem;
+        left: 5%;
       }
 
-      @include respond(small-phone){
-        top: 0rem;
-        left: 7rem;
+      @include respond(phone){
+        top: 25rem;
+        left: 21%;
+      }
+
+      @include respond(extra-small-phone){
+        top: 28rem;
       }
     }
 
