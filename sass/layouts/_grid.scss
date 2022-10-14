@@ -6,6 +6,10 @@
   padding-bottom: 3rem;
   margin: 0 auto;
 
+  @include respond(tab-land){
+    padding-bottom: 15rem;
+  }
+
   @include respond(tab-port){
     padding-bottom: $gutter-vertical;
   }

@@ -320,6 +320,11 @@ header {
   top: 2rem;
   left: 0;
 }
+@media only screen and (max-width: 75em) {
+  .composition__photo--p1 {
+    left: 20px;
+  }
+}
 @media only screen and (max-width: 56.25em) {
   .composition__photo--p1 {
     left: -15px;
@@ -341,6 +346,11 @@ header {
   top: 17rem;
   right: 0;
 }
+@media only screen and (max-width: 75em) {
+  .composition__photo--p2 {
+    right: 3%;
+  }
+}
 @media only screen and (max-width: 56.25em) {
   .composition__photo--p2 {
     top: 12rem;
@@ -361,6 +371,12 @@ header {
 .composition__photo--p3 {
   top: 15rem;
   left: 11%;
+}
+@media only screen and (max-width: 75em) {
+  .composition__photo--p3 {
+    top: 10rem;
+    left: 20%;
+  }
 }
 @media only screen and (max-width: 56.25em) {
   .composition__photo--p3 {
@@ -396,6 +412,11 @@ header {
   padding-left: 2rem;
   padding-bottom: 3rem;
   margin: 0 auto;
+}
+@media only screen and (max-width: 75em) {
+  .row {
+    padding-bottom: 15rem;
+  }
 }
 @media only screen and (max-width: 56.25em) {
   .row {

@@ -26,6 +26,10 @@
       top: 2rem;
       left: 0;
 
+      @include respond(tab-land){
+        left: 20px;
+      }
+
       @include respond(tab-port){
         left: -15px;
       }
@@ -45,6 +49,10 @@
       top: 17rem;
       right: 0;
 
+      @include respond(tab-land){
+        right: 3%;
+      }
+
       @include respond(tab-port){
         top: 12rem;
       }
@@ -63,6 +71,11 @@
     &--p3 {
       top: 15rem;
       left: 11%;
+
+      @include respond(tab-land){
+        top: 10rem;
+        left: 20%;
+      }
 
       @include respond(tab-port){
         top: 8rem;
