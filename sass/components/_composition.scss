@@ -72,8 +72,13 @@
       top: 15rem;
       left: 11%;
 
+      @include respond(big-desktop){
+        top: 9rem;
+        left: 20%;
+      }
+
       @include respond(tab-land){
-        top: 10rem;
+        top: 9rem;
         left: 20%;
       }
 

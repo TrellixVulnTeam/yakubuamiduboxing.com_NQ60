@@ -372,9 +372,15 @@ header {
   top: 15rem;
   left: 11%;
 }
+@media only screen and (min-width: 112.5em) {
+  .composition__photo--p3 {
+    top: 9rem;
+    left: 20%;
+  }
+}
 @media only screen and (max-width: 75em) {
   .composition__photo--p3 {
-    top: 10rem;
+    top: 9rem;
     left: 20%;
   }
 }
