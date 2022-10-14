@@ -1,5 +1,6 @@
 .row {
   max-width: $grid-width;
+  height: 100vh;
   padding: 2rem 2rem;
   margin: 0 auto;
 
@@ -21,8 +22,8 @@
     padding: .5rem 1.5rem;
     width: calc((100% - #{$gutter-horizontal}) / 2);
 
-    @include respond(phone){
-      
+    @include respond(small-phone){
+      width: 100%;
     }
   }
 }

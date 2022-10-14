@@ -21,6 +21,11 @@
       @include respond(phone){
         top: 10rem;
       }
+
+      @include respond(small-phone){
+        top: -6rem;
+        left: 4rem;
+      }
     }
 
     &--p2 {
@@ -29,6 +34,11 @@
 
       @include respond(phone){
         top: 15rem;
+      }
+
+      @include respond(small-phone){
+        top: 5rem;
+        left: -1rem;
       }
     }
 
@@ -39,6 +49,11 @@
       @include respond(phone){
         top: 25rem;
         left: 1rem;
+      }
+
+      @include respond(small-phone){
+        top: 0rem;
+        left: 7rem;
       }
     }
 
