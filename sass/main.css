@@ -410,13 +410,8 @@ header {
   height: 100%;
   padding-right: 2rem;
   padding-left: 2rem;
-  padding-bottom: 3rem;
+  padding-bottom: 15rem;
   margin: 0 auto;
-}
-@media only screen and (max-width: 75em) {
-  .row {
-    padding-bottom: 15rem;
-  }
 }
 @media only screen and (max-width: 56.25em) {
   .row {

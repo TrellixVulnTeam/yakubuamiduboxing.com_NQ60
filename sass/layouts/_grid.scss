@@ -3,12 +3,8 @@
   height: 100%;
   padding-right: 2rem;
   padding-left: 2rem;
-  padding-bottom: 3rem;
+  padding-bottom: 15rem;
   margin: 0 auto;
-
-  @include respond(tab-land){
-    padding-bottom: 15rem;
-  }
 
   @include respond(tab-port){
     padding-bottom: $gutter-vertical;
