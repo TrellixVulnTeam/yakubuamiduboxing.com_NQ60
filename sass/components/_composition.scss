@@ -1,7 +1,7 @@
 .composition {
   position: relative;
 
-  @include respond(phone){
+  @include respond(phone) {
     height: 500px;
   }
 
@@ -14,11 +14,11 @@
     transition: all 0.2s;
     outline-offset: 0.5rem;
 
-    @include respond(tab-port){
+    @include respond(tab-port) {
       width: 80%;
     }
 
-    @include respond(extra-small-phone){
+    @include respond(extra-small-phone) {
       width: 80%;
     }
 
@@ -26,20 +26,20 @@
       top: 2rem;
       left: 0;
 
-      @include respond(tab-land){
+      @include respond(tab-land) {
         left: 20px;
       }
 
-      @include respond(tab-port){
+      @include respond(tab-port) {
         left: -15px;
       }
 
-      @include respond(phone){
+      @include respond(phone) {
         top: 8rem;
         left: 15px;
       }
 
-      @include respond(extra-small-phone){
+      @include respond(extra-small-phone) {
         top: 5rem;
         left: 0rem;
       }
@@ -49,20 +49,20 @@
       top: 17rem;
       right: 0;
 
-      @include respond(tab-land){
+      @include respond(tab-land) {
         right: 3%;
       }
 
-      @include respond(tab-port){
+      @include respond(tab-port) {
         top: 12rem;
       }
 
-      @include respond(phone){
+      @include respond(phone) {
         top: 15rem;
         right: 15px;
       }
 
-      @include respond(extra-small-phone){
+      @include respond(extra-small-phone) {
         top: 19rem;
         left: 3rem;
       }
@@ -72,27 +72,27 @@
       top: 15rem;
       left: 11%;
 
-      @include respond(big-desktop){
+      @include respond(big-desktop) {
         top: 9rem;
         left: 20%;
       }
 
-      @include respond(tab-land){
+      @include respond(tab-land) {
         top: 9rem;
         left: 20%;
       }
 
-      @include respond(tab-port){
+      @include respond(tab-port) {
         top: 8rem;
         left: 5%;
       }
 
-      @include respond(phone){
+      @include respond(phone) {
         top: 25rem;
         left: 21%;
       }
 
-      @include respond(extra-small-phone){
+      @include respond(extra-small-phone) {
         top: 28rem;
       }
     }

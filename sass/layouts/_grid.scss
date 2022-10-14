@@ -6,7 +6,7 @@
   padding-bottom: 15rem;
   margin: 0 auto;
 
-  @include respond(tab-port){
+  @include respond(tab-port) {
     padding-bottom: $gutter-vertical;
   }
 
@@ -27,7 +27,7 @@
   .col-1-of-2 {
     width: calc((100% - #{$gutter-horizontal}) / 2);
 
-    @include respond(phone){
+    @include respond(phone) {
       width: 100%;
     }
   }
