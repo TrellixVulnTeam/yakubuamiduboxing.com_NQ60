@@ -88,7 +88,11 @@ html {
 
 body {
   box-sizing: border-box;
-  background-color: #f7f7f7;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #777;
 }
 
 header {
@@ -428,7 +432,7 @@ header {
 }
 
 .gallery-header {
-  padding-bottom: 30px;
+  padding-bottom: 1.5em;
 }
 
 .content {
@@ -521,7 +525,7 @@ header {
 
 .wrapper-2 {
   width: 400px;
-  height: 500px;
+  height: 100%;
   color: #fff;
   padding: 50px 30px;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
@@ -529,7 +533,7 @@ header {
 }
 @media only screen and (max-width: 25em) {
   .wrapper-2 {
-    width: 300px;
+    width: 280px;
   }
 }
 
@@ -576,7 +580,7 @@ textarea {
   margin-bottom: 20px;
 }
 
-.wrapper-2 button {
+.wrapper-2 .button {
   display: block;
   border: none;
   width: 100%;
