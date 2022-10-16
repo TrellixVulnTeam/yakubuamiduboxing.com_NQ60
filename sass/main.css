@@ -424,37 +424,31 @@ header {
   width: 100%;
   min-height: 100vh;
 }
-
-.wrapper {
+.gallery .wrapper {
   width: 80%;
   padding: 30px 0;
   text-align: center;
 }
-
-.gallery-header {
+.gallery .wrapper .gallery-header {
   padding-bottom: 1.5em;
 }
-
-.content {
-  padding: 10%;
-}
-
-.content h2 {
-  font-size: 30px;
-  text-transform: uppercase;
-  margin-bottom: 15px;
-}
-
-.content p {
-  line-height: 1.5;
-}
-
-.main-content {
+.gallery .wrapper .main-content {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-row-gap: 25px;
   grid-column-gap: 25px;
+}
+.gallery .wrapper .main-content .content {
+  padding: 10%;
+}
+.gallery .wrapper .main-content .content .content h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.gallery .wrapper .main-content .content .content p {
+  line-height: 1.5;
 }
 
 .main-content .box {
@@ -465,8 +459,7 @@ header {
   height: 250px;
   overflow: hidden;
 }
-
-.main-content .box::before {
+.main-content .box .main-content .box::before {
   content: "";
   position: absolute;
   top: 0;
@@ -475,8 +468,7 @@ header {
   height: 100%;
   transition: all 0.5s ease-in-out;
 }
-
-.main-content .box:hover::before {
+.main-content .box .main-content .box:hover::before {
   top: 0;
   right: calc(100% - 5px);
   z-index: 8;
