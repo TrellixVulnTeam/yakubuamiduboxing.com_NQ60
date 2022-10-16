@@ -290,6 +290,25 @@ header {
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.95); }
 
+.footer {
+  padding: 3rem 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #151414;
+  color: #fff; }
+  .footer .contact-info {
+    display: flex;
+    flex-direction: column; }
+  .footer .contact-item {
+    display: flex;
+    flex-direction: row; }
+  .footer .icon {
+    margin-right: 5rem;
+    margin-bottom: 2rem; }
+    .footer .icon i {
+      margin-right: 1rem; }
+
 .gallery {
   display: flex;
   align-items: center;
