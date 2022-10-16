@@ -439,6 +439,30 @@ header {
   margin-right: 1rem;
 }
 
+.contact-icons .contact-icon {
+  display: flex;
+  flex-direction: row;
+}
+.contact-icons .contact-icon a {
+  width: 50PX;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 0.6rem;
+  transition: all 0.4s ease-in-out;
+}
+.contact-icons .contact-icon a:hover {
+  background-color: #7ed56f;
+}
+.contact-icons .contact-icon a i {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
 .gallery {
   display: flex;
   align-items: center;
