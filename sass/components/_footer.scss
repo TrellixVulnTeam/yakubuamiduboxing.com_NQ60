@@ -6,9 +6,32 @@
   background: #151414;
   color: $color-white;
 
+  @include respond(phone){
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  @include respond(small-phone){
+    padding: 3rem 2rem;
+  }
+
+  @include respond(extra-small-phone){
+    padding: 3rem 2rem;
+  }
+
   .contact-info {
     display: flex;
     flex-direction: column;
+
+    @include respond(phone){
+      align-items: flex-start;
+      margin: 0 auto;
+      margin-bottom: 4rem;
+    }
+
+    @include respond(extra-small-phone){
+      align-items: flex-start;
+    }
   }
 
   .contact-item {
@@ -59,6 +82,23 @@
 }
 
 .footer-widget {
+ 
+  @include respond(tab-port){
+    max-width: 300px;
+    margin-left: 15rem;
+  };
+
+  @include respond(phone){
+    margin-left: 10rem;
+  }
+
+  @include respond(small-phone){
+    margin-left: 0;
+  }
+
+  @include respond(extra-small-phone){
+    margin-left: 0;
+  }
 
   .footer-widget-heading h3 {
     color: #fff;
@@ -77,7 +117,7 @@
       background: #ff5e14;
     }
   }
- 
+
   .footer-widget ul li {
     display: inline-block;
     width: 50%;

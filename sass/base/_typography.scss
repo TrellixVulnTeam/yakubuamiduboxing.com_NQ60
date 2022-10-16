@@ -83,4 +83,8 @@ header {
   &:not(:last-child) {
     margin-bottom: 3rem;
   }
+
+  @include respond(phone){
+    
+  }
 }

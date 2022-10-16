@@ -18,7 +18,7 @@
       width: 80%;
     }
 
-    @include respond(extra-small-phone) {
+    @include respond(small-phone) {
       width: 80%;
     }
 
@@ -39,7 +39,7 @@
         left: 15px;
       }
 
-      @include respond(extra-small-phone) {
+      @include respond(small-phone) {
         top: 5rem;
         left: 0rem;
       }
@@ -62,7 +62,7 @@
         right: 15px;
       }
 
-      @include respond(extra-small-phone) {
+      @include respond(small-phone) {
         top: 19rem;
         left: 3rem;
       }
@@ -92,7 +92,7 @@
         left: 21%;
       }
 
-      @include respond(extra-small-phone) {
+      @include respond(small-phone) {
         top: 28rem;
       }
     }

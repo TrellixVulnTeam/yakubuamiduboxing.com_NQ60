@@ -120,7 +120,7 @@ header {
   left: 40px;
   width: 60px;
   border-radius: 7px; }
-  @media only screen and (max-width: 23.4em) {
+  @media only screen and (max-width: 25em) {
     .logo-box {
       top: 20px;
       left: 20px; } }
@@ -297,9 +297,27 @@ header {
   justify-content: space-between;
   background: #151414;
   color: #fff; }
+  @media only screen and (max-width: 37.5em) {
+    .footer {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 25em) {
+    .footer {
+      padding: 3rem 2rem; } }
+  @media only screen and (max-width: 23.4em) {
+    .footer {
+      padding: 3rem 2rem; } }
   .footer .contact-info {
     display: flex;
     flex-direction: column; }
+    @media only screen and (max-width: 37.5em) {
+      .footer .contact-info {
+        align-items: flex-start;
+        margin: 0 auto;
+        margin-bottom: 4rem; } }
+    @media only screen and (max-width: 23.4em) {
+      .footer .contact-info {
+        align-items: flex-start; } }
   .footer .contact-item {
     display: flex;
     flex-direction: row; }
@@ -328,6 +346,23 @@ header {
     .contact-icons .contact-icon a i {
       color: #fff;
       font-size: 2rem; }
+
+@media only screen and (max-width: 56.25em) {
+  .footer-widget {
+    max-width: 300px;
+    margin-left: 15rem; } }
+
+@media only screen and (max-width: 37.5em) {
+  .footer-widget {
+    margin-left: 10rem; } }
+
+@media only screen and (max-width: 25em) {
+  .footer-widget {
+    margin-left: 0; } }
+
+@media only screen and (max-width: 23.4em) {
+  .footer-widget {
+    margin-left: 0; } }
 
 .footer-widget .footer-widget-heading h3 {
   color: #fff;
