@@ -84,7 +84,6 @@ header {
     margin-bottom: 3rem;
   }
 
-  @include respond(phone){
-    
+  @include respond(phone) {
   }
 }

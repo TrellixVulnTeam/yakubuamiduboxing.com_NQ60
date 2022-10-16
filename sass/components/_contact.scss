@@ -4,31 +4,35 @@
   font-family: poppins;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient( to right bottom, rgba(56, 70, 77, 0.25), rgba(56, 70, 77, 0.55) )
-};
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(56, 70, 77, 0.25),
+    rgba(56, 70, 77, 0.55)
+  );
+}
 
 .form-area {
   margin-top: 4rem;
   display: grid;
   place-items: center;
   height: 100%;
-};
+}
 
 .wrapper-2 {
   width: 400px;
   height: 100%;
   color: $color-white;
   padding: 50px 30px;
-  box-shadow: 0 0 1rem 0 rgba(0,0,0,0.2);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   position: relative;
 
-   @include respond(small-phone){
+  @include respond(small-phone) {
     width: 280px;
-   }
-};
+  }
+}
 
 .wrapper-2::before {
-  content: '';
+  content: "";
   position: absolute;
   background: inherit;
   z-index: -1;
@@ -44,7 +48,7 @@
   padding: 0;
   margin: 0;
   font-weight: bold;
-};
+}
 
 .wrapper-2 input {
   border: none;
@@ -56,7 +60,7 @@
   font-size: 16px;
   width: 100%;
   margin-bottom: 20px;
-};
+}
 
 textarea {
   border: none;
@@ -68,7 +72,7 @@ textarea {
   font-size: 16px;
   width: 100%;
   margin-bottom: 20px;
-};
+}
 
 .wrapper-2 .button {
   display: block;

@@ -102,7 +102,7 @@ header {
   background-position: top;
   position: relative;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
 .text-box {
@@ -118,7 +118,7 @@ header {
   color: #fff;
   text-transform: uppercase;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   margin-bottom: 1rem;
 }
 
@@ -129,11 +129,11 @@ header {
   letter-spacing: 10px;
   margin-bottom: 1rem;
   -webkit-animation-name: moveInLeft;
-          animation-name: moveInLeft;
+  animation-name: moveInLeft;
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
 }
 
 .heading-primary-sub {
@@ -142,18 +142,22 @@ header {
   font-weight: 600;
   letter-spacing: 5px;
   -webkit-animation-name: moveInRight;
-          animation-name: moveInRight;
+  animation-name: moveInRight;
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
 }
 
 .heading-secondary {
   font-size: 3rem;
   text-transform: uppercase;
   font-weight: 900;
-  background-image: linear-gradient(to right, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8));
+  background-image: linear-gradient(
+    to right,
+    rgba(126, 213, 111, 0.8),
+    rgba(40, 180, 133, 0.8)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -267,12 +271,13 @@ header {
 
 .btn-animated {
   -webkit-animation: moveInBottom 0.5s ease-out 0.7s;
-          animation: moveInBottom 0.5s ease-out 0.7s;
+  animation: moveInBottom 0.5s ease-out 0.7s;
   -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
 }
 
-.btn-text:link, .btn-text:visited {
+.btn-text:link,
+.btn-text:visited {
   font-size: 1.6rem;
   color: #7ed56f;
   display: inline-block;
@@ -471,7 +476,7 @@ header {
   flex-direction: row;
 }
 .contact-icons .contact-icon a {
-  width: 40PX;
+  width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: #333;
@@ -546,8 +551,8 @@ header {
 .footer-widget .subscribe-form input {
   width: 100%;
   padding: 14px 28px;
-  background: #2E2E2E;
-  border: 1px solid #2E2E2E;
+  background: #2e2e2e;
+  border: 1px solid #2e2e2e;
   color: #fff;
 }
 .footer-widget .subscribe-form button {
@@ -630,7 +635,7 @@ header {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .main-content .box .img-text {
@@ -657,7 +662,11 @@ header {
   font-family: poppins;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(to right bottom, rgba(56, 70, 77, 0.25), rgba(56, 70, 77, 0.55));
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(56, 70, 77, 0.25),
+    rgba(56, 70, 77, 0.55)
+  );
 }
 
 .form-area {
@@ -760,10 +769,10 @@ textarea {
   display: table;
   clear: both;
 }
-.row [class^=col-] {
+.row [class^="col-"] {
   float: left;
 }
-.row [class^=col-]:not(:last-child) {
+.row [class^="col-"]:not(:last-child) {
   margin-right: 2rem;
 }
 .row .col-1-of-2 {
@@ -778,4 +787,4 @@ textarea {
 .about {
   height: 100%;
   padding-top: 4rem;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
